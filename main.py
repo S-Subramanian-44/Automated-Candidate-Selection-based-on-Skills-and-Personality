@@ -75,8 +75,8 @@ else:
 df.to_csv('final_candidate_dataset.csv', index=False)
 
 if hired_candidates:
-    sender_email = "71762133044@cit.edu.in"
-    sender_password = "mani@2133044"
+    sender_email = "your_email"
+    sender_password = "email_password"
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
 
