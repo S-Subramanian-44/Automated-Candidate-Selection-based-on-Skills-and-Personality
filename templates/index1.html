@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experienced Candidate Application</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            text-align: center;
+            padding: 50px;
+            background-color: #d3f9d8;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        select, input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: #ffffff;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="display-4">Experienced Candidate Application</h1><br>
+    <form action="/submit/experience" method="post" enctype="multipart/form-data">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required>
+
+        <label for="age">Age:</label>
+        <input type="number" name="age" required>
+
+        <label for="mobile">Mobile Number:</label>
+        <input type="number" name="mobile" required>
+
+        <label for="gender">Gender:</label>
+        <select name="gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+
+        <label for="experience">Years of Experience:</label>
+        <input type="number" name="experience" required>
+
+        <label for="resume">Upload Resume:</label>
+        <input type="file" name="resume" accept=".pdf, .doc, .docx" required><br>
+
+        <!-- Questions related to Openness -->
+        <label for="openness_q1">I enjoy trying new things and exploring different ideas.</label>
+        <select name="openness_q1" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <label for="openness_q2">I am a creative person who values artistic expression.</label>
+        <select name="openness_q2" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <label for="openness_q3">I enjoy learning about different cultures and perspectives.</label>
+        <select name="openness_q3" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <label for="openness_q4">I often find myself thinking outside the box.</label>
+        <select name="openness_q4" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <label for="openness_q5">I enjoy engaging in philosophical discussions.</label>
+        <select name="openness_q5" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <!-- Questions related to Conscientiousness -->
+        <label for="conscientiousness_q1">I am organized and pay attention to detail.</label>
+        <select name="conscientiousness_q1" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <label for="conscientiousness_q2">I follow a schedule and prefer to plan ahead.</label>
+        <select name="conscientiousness_q2" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <label for="conscientiousness_q3">Meeting deadlines is important to me.</label>
+        <select name="conscientiousness_q3" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+            <label for="conscientiousness_q4">I take pride in delivering high-quality work.</label>
+        <select name="conscientiousness_q4" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <label for="conscientiousness_q5">I set ambitious goals for myself.</label>
+        <select name="conscientiousness_q5" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <!-- Questions related to Extroversion -->
+        <label for="extroversion_q1">I am outgoing and enjoy socializing with others.</label>
+        <select name="extroversion_q1" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+        <label for="extroversion_q2">I feel energized in social situations and enjoy meeting new people.</label>
+        <select name="extroversion_q2" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <label for="extroversion_q3">I often initiate conversations with strangers.</label>
+        <select name="extroversion_q3" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <label for="extroversion_q4">I enjoy participating in group activities.</label>
+        <select name="extroversion_q4" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <label for="extroversion_q5">I find socializing to be energizing rather than draining.</label>
+        <select name="extroversion_q5" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <!-- Questions related to Agreeableness -->
+        <label for="agreeableness_q1">I am empathetic and considerate of others' feelings.</label>
+        <select name="agreeableness_q1" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <label for="agreeableness_q2">I value cooperation and harmony in group settings.</label>
+        <select name="agreeableness_q2" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <label for="agreeableness_q3">I often go out of my way to help others.</label>
+        <select name="agreeableness_q3" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <label for="agreeableness_q4">I believe in finding common ground in disagreements.</label>
+        <select name="agreeableness_q4" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <label for="agreeableness_q5">I enjoy working in collaborative environments.</label>
+        <select name="agreeableness_q5" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <!-- Questions related to Neuroticism -->
+        <label for="neuroticism_q1">I tend to worry about future events and potential problems.</label>
+        <select name="neuroticism_q1" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <label for="neuroticism_q2">I experience mood swings and emotional ups and downs.</label>
+        <select name="neuroticism_q2" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <label for="neuroticism_q3">I often find it challenging to cope with stress.</label>
+        <select name="neuroticism_q3" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <label for="neuroticism_q4">I am sensitive to criticism and negative feedback.</label>
+        <select name="neuroticism_q4" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <label for="neuroticism_q5">I often ruminate on past mistakes and missed opportunities.</label>
+        <select name="neuroticism_q5" required>
+            <option value="0">---Select---</option>
+            <option value="1">Strongly Disagree</option>
+            <option value="2">Disagree</option>
+            <option value="3">Neutral</option>
+            <option value="4">Agree</option>
+            <option value="5">Strongly Agree</option>
+        </select><br>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.has('submission') && urlParams.get('submission') === 'success') {
+                alert('Thank you for applying! We will email you soon.');
+            }
+        });
+    </script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

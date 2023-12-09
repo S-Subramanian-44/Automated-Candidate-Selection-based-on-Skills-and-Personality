@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            text-align: center;
+            padding: 50px;
+            background-color: #d3f9d8;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: left;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+
+        form label,
+        form input {
+            margin-bottom: 10px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="display-4">Sign Up</h1><br>
+    <form action="{{ url_for('signup') }}" method="post">
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" id="Name" class="form-control" required>
+
+        <label for="Degree">Degree:</label>
+        <input type="text" name="Degree" id="Degree" class="form-control" required>
+
+        <label for="Email">Email:</label>
+        <input type="email" name="Email" id="Email" class="form-control" required>
+
+        <label for="Phone Number">Phone Number:</label>
+        <input type="text" name="Phone Number" id="Phone Number" class="form-control" required>
+
+        <label for="Experience">Experience:</label>
+        <input type="text" name="Experience" id="Experience" class="form-control" required>
+
+        <label for="Password">Password:</label>
+        <input type="password" name="Password" id="Password" class="form-control" required>
+
+        <button type="submit" class="btn btn-primary">Signup</button>
+
+
+        <a href="{{ url_for('login') }}" class="btn btn-secondary">Login?</a>
+    </form>
+</body>
+</html>
