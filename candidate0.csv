@@ -1,0 +1,60 @@
+Candidate_ID,Name,Age,Gender,Skills,Education,Openness,Conscientiousness,Extroversion,Agreeableness,Neuroticism,Email,Mobile
+1,Mark Thompson,29,Male,"Java, Python, SQL",Bachelor's in Computer Science,4,5,3,4,2,markthompson@gmail.com,
+2,Alice Davis,28,Female,"C++, JavaScript, HTML/CSS",Master's in Software Engineering,5,3,4,4,3,alicedavis@gmail.com,
+3,Christopher White,30,Male,"C#, PHP, Data Structures",Bachelor's in Information Systems,3,4,3,3,2,christopherwhite@gmail.com,
+4,Emma Miller,31,Female,"Python, R, Data Analysis",Bachelor's in Statistics,4,5,2,5,2,emmamiller@gmail.com,
+5,Jack Robinson,27,Male,"JavaScript, React, Node.js",Bachelor's in Computer Science,4,3,5,4,3,jackrobinson@gmail.com,
+6,Sophia Turner,35,Female,"PHP, HTML/CSS, UX Design",Bachelor's in Web Design,5,4,3,4,4,sophiaturner@gmail.com,
+7,David Smith,26,Male,"C++, C#, Data Analysis",Bachelor's in Computer Science,3,4,2,3,2,davidsmith@gmail.com,
+8,Olivia Brown,33,Female,"Python, Data Science, Machine Learning",Master's in Data Science,4,5,3,5,3,oliviabrown@gmail.com,
+9,Matthew Hall,28,Male,"Java, SQL, Database Administration",Bachelor's in Information Systems,3,3,2,3,4,matthewhall@gmail.com,
+10,Lily Taylor,30,Female,"JavaScript, React, Angular",Bachelor's in Software Engineering,5,4,4,4,3,lilytaylor@gmail.com,
+11,Andrew Davis,25,Male,"Python, JavaScript, SQL",Bachelor's in Computer Science,3,4,2,4,3,andrewdavis@gmail.com,
+12,Sophie Smith,28,Female,"Java, C++, HTML",Bachelor's in Computer Science,4,3,4,3,2,sophiesmith@gmail.com,
+13,Michael Johnson,31,Male,"C#, PHP, UX Design",Bachelor's in Web Design,3,4,3,5,3,michaeljohnson@gmail.com,
+14,Grace Williams,29,Female,"Python, Data Analysis, React",Bachelor's in Statistics,5,5,2,4,2,gracewilliams@gmail.com,
+15,John Davis,30,Male,"JavaScript, Node.js, SQL",Master's in Software Engineering,4,3,5,4,3,johndavis@gmail.com,
+16,Emma Brown,27,Female,"C++, Data Structures, HTML/CSS",Bachelor's in Computer Science,3,4,2,3,2,emmabrown@gmail.com,
+17,William Miller,34,Male,"Java, Python, Machine Learning",Master's in Data Science,4,5,3,5,3,williammiller@gmail.com,
+18,Hannah Wilson,25,Female,"JavaScript, Angular, Data Analysis",Bachelor's in Information Systems,3,3,2,3,4,hannahwilson@gmail.com,
+19,Charlie Anderson,30,Male,"PHP, HTML/CSS, React",Bachelor's in Software Engineering,5,4,4,4,3,charlieanderson@gmail.com,
+20,Daniel Taylor,28,Male,"C++, SQL, Database Administration",Bachelor's in Computer Science,3,4,2,4,3,danieltaylor@gmail.com,
+21,Ava Martinez,32,Female,"Python, JavaScript, Data Science",Master's in Computer Science,3,4,2,4,3,avamartinez@gmail.com,
+22,Leo Johnson,27,Male,"Java, HTML/CSS, UX Design",Bachelor's in Web Design,5,4,3,4,4,leojohnson@gmail.com,
+23,Chloe Turner,31,Female,"C#, Data Structures, Data Analysis",Bachelor's in Computer Science,4,5,2,5,2,chloeturner@gmail.com,
+24,Noah Harris,30,Male,"JavaScript, React, Node.js",Bachelor's in Computer Science,4,3,5,4,3,noahharris@gmail.com,
+25,Ella White,34,Female,"PHP, HTML/CSS, Machine Learning",Master's in Data Science,5,4,3,4,4,ellawhite@gmail.com,
+26,Owen Robinson,26,Male,"C++, Java, Data Analysis",Bachelor's in Statistics,3,4,2,3,2,owenrobinson@gmail.com,
+27,Lily Thompson,32,Female,"Python, UX Design, Database Administration",Bachelor's in Information Systems,4,5,3,5,3,lilythompson@gmail.com,
+28,Aiden Clark,25,Male,"Java, SQL, Angular",Bachelor's in Software Engineering,3,3,2,3,4,aidenclark@gmail.com,
+29,Harper Lewis,30,Male,"JavaScript, HTML/CSS, Data Science",Master's in Computer Science,5,4,4,4,3,harperlewis@gmail.com,
+30,Carter Hall,28,Male,"Python, JavaScript, React",Bachelor's in Computer Science,3,4,2,4,3,carterhall@gmail.com,
+31,Grace Adams,31,Female,"C++, Data Structures, SQL",Bachelor's in Computer Science,3,4,2,4,3,graceadams@gmail.com,
+32,Jackson Moore,27,Male,"Java, Python, Machine Learning",Master's in Data Science,3,4,2,4,3,jacksonmoore@gmail.com,
+33,Lily Walker,34,Female,"JavaScript, Angular, Data Analysis",Bachelor's in Statistics,4,5,2,5,2,lilywalker@gmail.com,
+34,Wyatt Brooks,25,Male,"PHP, HTML/CSS, UX Design",Bachelor's in Web Design,4,3,4,3,2,wyattbrooks@gmail.com,
+35,Zoey Foster,32,Male,"C#, Data Structures, Machine Learning",Master's in Computer Science,5,4,3,4,4,zoeyfoster@gmail.com,
+36,Owen Cooper,30,Male,"Python, Data Science, Database Administration",Bachelor's in Information Systems,3,3,2,3,4,owencooper@gmail.com,
+37,Ava Edwards,28,Female,"Java, SQL, React",Bachelor's in Software Engineering,3,4,2,4,3,avaedwards@gmail.com,
+38,Oliver Bryant,31,Male,"C++, JavaScript, Angular",Bachelor's in Computer Science,3,4,2,4,3,oliverbryant@gmail.com,
+39,Emma Hayes,27,Female,"Python, Data Analysis, Node.js",Bachelor's in Computer Science,3,4,2,4,3,emmahayes@gmail.com,
+40,Benjamin Ross,29,Male,"JavaScript, HTML/CSS, UX Design",Bachelor's in Web Design,5,4,3,4,4,benjaminross@gmail.com,
+41,Amelia King,32,Female,"C#, Data Structures, SQL",Bachelor's in Computer Science,4,5,3,5,2,ameliaking@gmail.com,
+42,Khaleef,22,,,,2,2,2,2,2,71762133026@cit.edu.in,9025215884.0
+43,MAlik,20,,,,2,2,2,2,2,71762133026@cit.edu.in,12345697258.0
+44,Vishwa,45,,,,2,2,2,2,2,vishwa@gmail.com,9025215884.0
+45,Vishwa,22,,,,2,2,2,2,2,71762133026@cit.edu.in,9894255077.0
+46,Deepika,22,,,,2,2,2,2,2,deepika@gmail.com,7894562145.0
+47,Krishnapriya S,19,Female,,,8,2,2,2,2,krishnapriyasri04@gmail.com,9047547774.0
+48,Subramanian,19,Male,,,2,2,2,2,2,subramanian160104@gmail.com,8072744511.0
+49,Vishwa,21,Male,,,2,2,2,2,2,vishwa@gmmail.com,7854841548.0
+50,Subramanian ,19,Male,,,2,2,2,2,2,subbu160104@gmail.com,8072744511.0
+51,Subramanian ,19,Male,,,2,2,2,2,2,mani@gmail,8072744511.0
+52,rithis,19,Male,,,2,2,2,2,2,mani@gmail,8072744511.0
+53,mani,12,Male,,,2,2,2,2,2,dfsud@gmail.com,7984785487.0
+54,mani,12,Male,,,2,2,2,2,2,mani@gmail.com,87998989.0
+55,mani,12,Male,"SQL, JAVA, R, PHP, JavaScript, Python, Data Structures, Java, Machine Learning",Diploma,2,2,2,2,2,mani@gmail.com,87998989.0
+56,Khaleef,19,Male,"R, PHP, JavaScript, Machine learning, Python, Sql, Java","M.SC, M.Sc",2,2,2,2,2,71762133026@cit.edu.in,7898532989.0
+57,Vishwa,21,Male,"data analysis, python",m.sc,2,2,2,2,2,71762133050@cit.edu.in,7998553589.0
+61,krishnaPriya,21,Female,"machine learning, python, java",,4,3,3,5,2,71762133027@cit.edu.in,9047547774.0
+62,KRISHNA PRIYA,21,Female,"java, python, machine learning",,0,1,1,2,1,71762133027@cit.edu.in,9047547774.0

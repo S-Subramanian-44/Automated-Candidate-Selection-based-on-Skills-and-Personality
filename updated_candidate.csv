@@ -1,0 +1,44 @@
+Candidate_ID,Name,Age,Gender,Skills,Experience,Education,Openness,Conscientiousness,Extroversion,Agreeableness,Neuroticism,Email,Mobile,Unnamed: 14,Unnamed: 15,Skill_Competency,Personality_Score,Years_Experience_Education,Skill_Education_Interaction,Normalized_Personality_Score,Hired
+1,John Doe,28,Male,32,3,0,4.0,5.0,3.0,4.0,2.0,JohnDoe@gmail.com,9876543210,,,32,14.0,3,0,1.0612901254923692,0
+2,Jane Smith,30,Male,15,2,7,5.0,3.0,4.0,4.0,3.0,abisara2003@gmail.com,9012345678,,,15,13.0,9,105,0.6651488460117104,0
+3,David Johnson,29,Male,8,4,1,3.0,4.0,3.0,3.0,2.0,davidjohnson@gmail.com,8765432109,,,8,11.0,5,8,-0.12713371294960712,0
+4,Sarah Lee,32,Female,18,5,3,4.0,5.0,2.0,5.0,2.0,sarahlee@gmail.com,8901234567,,,18,14.0,8,54,1.0612901254923692,0
+5,Mike Brown,31,Male,34,3,0,4.0,3.0,5.0,4.0,3.0,mikebrown@gmail.com,7654321098,,,34,13.0,3,0,0.6651488460117104,0
+6,Emily Davis,35,Female,30,2,4,5.0,4.0,3.0,4.0,4.0,emilydavis@gmail.com,8192035467,,,30,12.0,6,120,0.2690075665310516,0
+7,Chris Wilson,27,Male,4,3,0,3.0,4.0,2.0,3.0,2.0,chriswilson@gmail.com,9357248610,,,4,10.0,3,0,-0.5232749924302659,0
+8,Olivia White,33,Female,23,4,6,4.0,5.0,3.0,5.0,3.0,subramanian160104@gmail.com,6748901235,,,23,14.0,10,138,1.0612901254923692,0
+9,William Hall,26,Male,24,5,1,3.0,3.0,2.0,3.0,4.0,williamhall@gmail.com,7254381096,,,24,7.0,6,24,-1.7116988308722423,0
+10,Linda Taylor,31,Female,3,2,2,5.0,4.0,4.0,4.0,3.0,lindataylor@gmail.com,8945671203,, ,3,14.0,4,6,1.0612901254923692,0
+11,Rahul,26,Male,37,2,0,3.0,4.0,2.0,4.0,3.0,rahul@gmail.com,6309271845,,,37,10.0,2,0,-0.5232749924302659,0
+12,John Smith,29,Male,14,3,0,4.0,3.0,4.0,3.0,2.0,johnsmith@gmail.com,5423981760,,,14,12.0,3,0,0.2690075665310516,0
+13,Emily Johnson,32,Female,9,4,4,3.0,4.0,3.0,5.0,3.0,emilyjohnson@gmail.com,2075846913,,,9,12.0,8,36,0.2690075665310516,0
+14,Alex Williams,28,Male,19,2,3,5.0,5.0,2.0,4.0,2.0,alexwilliams@gmail.com,4582167039,,,19,14.0,5,57,1.0612901254923692,0
+15,Sarah Davis,30,Female,35,5,7,4.0,3.0,5.0,4.0,3.0,zkhaleef27@gmail.com,3568019427,,,35,13.0,12,245,0.6651488460117104,0
+16,Michael Brown,27,Male,11,3,0,3.0,4.0,2.0,3.0,2.0,michaelbrown@gmail.com,9132740568,,,11,10.0,3,0,-0.5232749924302659,0
+17,Olivia Miller,35,Female,31,4,6,4.0,5.0,3.0,5.0,3.0,oliviamiller@gmail.com,6809154327,,,31,14.0,10,186,1.0612901254923692,0
+18,Ethan Wilson,26,Male,1,5,1,3.0,3.0,2.0,3.0,4.0,ethanwilson@gmail.com,3948571260,,,1,7.0,6,1,-1.7116988308722423,0
+19,Chloe Anderson,31,Male,29,2,2,5.0,4.0,4.0,4.0,3.0,chloeanderson@gmail.com,1267938450,,,29,14.0,4,58,1.0612901254923692,0
+20,Daniel Taylor,29,Male,13,3,0,3.0,4.0,2.0,4.0,3.0,danieltaylor@gmail.com,2371894506,,,13,10.0,3,0,-0.5232749924302659,0
+21,Ava Martinez,33,Female,22,4,5,3.0,4.0,2.0,4.0,3.0,avamartinez@gmail.com,5701384926,,,22,10.0,9,110,-0.5232749924302659,0
+22,Liam Johnson,28,Male,26,2,4,5.0,4.0,3.0,4.0,4.0,liamjohnson@gmail.com,4085763129,,,26,12.0,6,104,0.2690075665310516,0
+23,Sophia Turner,30,Female,5,5,0,4.0,5.0,2.0,5.0,2.0,sophiaturner@gmail.com,1923486075,,,5,14.0,5,0,1.0612901254923692,0
+24,Noah Harris,31,Male,34,3,0,4.0,3.0,5.0,4.0,3.0,noahharris@gmail.com,6850972134,,,34,13.0,3,0,0.6651488460117104,0
+25,Isabella White,35,Female,28,2,6,5.0,4.0,3.0,4.0,4.0,isabellawhite@gmail.com,3592648701,,,28,12.0,8,168,0.2690075665310516,0
+26,Mason Robinson,27,Male,10,3,3,3.0,4.0,2.0,3.0,2.0,masonrobinson@gmail.com,8629304715,,,10,10.0,6,30,-0.5232749924302659,0
+27,Mia Thompson,33,Female,25,4,1,4.0,5.0,3.0,5.0,3.0,miathompson@gmail.com,7412058369,,,25,14.0,5,25,1.0612901254923692,0
+28,Aiden Clark,26,Male,2,5,2,3.0,3.0,2.0,3.0,4.0,aidenclark@gmail.com,5046782391,,,2,7.0,7,4,-1.7116988308722423,0
+29,Harper Lewis,31,Male,21,2,5,5.0,4.0,4.0,4.0,3.0,71762133027@cit.edu.in,3196845027,,,21,14.0,7,105,1.0612901254923692,0
+30,Carter Hall,29,Male,36,3,0,3.0,4.0,2.0,4.0,3.0,carterhall@gmail.com,8237459610,,,36,10.0,3,0,-0.5232749924302659,0
+31,Grace Adams,32,Female,12,4,0,3.0,4.0,2.0,4.0,3.0,graceadams@gmail.com,9678034152,,,12,10.0,4,0,-0.5232749924302659,0
+32,Jackson Moore,28,Male,31,2,6,3.0,4.0,2.0,4.0,3.0,jacksonmoore@gmail.com,1542093786,,,31,10.0,8,186,-0.5232749924302659,0
+33,Lily Walker,35,Female,1,5,3,4.0,5.0,2.0,5.0,2.0,lilywalker@gmail.com,6057812943,,,1,14.0,8,3,1.0612901254923692,0
+34,Wyatt Brooks,26,Male,30,3,4,4.0,3.0,4.0,3.0,2.0,wyattbrooks@gmail.com,4926138570,,,30,12.0,7,120,0.2690075665310516,0
+35,Zoey Foster,33,Male,6,4,5,5.0,4.0,3.0,4.0,4.0,zoeyfoster@gmail.com,7183956240,,,6,12.0,9,30,0.2690075665310516,0
+36,Owen Cooper,31,Male,20,2,1,3.0,3.0,2.0,3.0,4.0,owencooper@gmail.com,3865047291,,,20,7.0,3,20,-1.7116988308722423,0
+37,Ava Edwards,29,Female,33,3,2,3.0,4.0,2.0,4.0,3.0,avaedwards@gmail.com,9493728056,,,33,10.0,5,66,-0.5232749924302659,0
+38,Oliver Bryant,32,Male,0,4,0,3.0,4.0,2.0,4.0,3.0,oliverbryant@gmail.com,7345091876,,,0,10.0,4,0,-0.5232749924302659,0
+39,Emma Hayes,28,Female,17,5,0,3.0,4.0,2.0,4.0,3.0,emmahayes@gmail.com,8761203459,,,17,10.0,5,0,-0.5232749924302659,0
+40,Benjamin Ross,30,Male,27,2,4,5.0,4.0,3.0,4.0,4.0,benjaminross@gmail.com,8403928176,,,27,12.0,6,108,0.2690075665310516,0
+41,Amelia King,27,Female,7,3,0,4.0,5.0,3.0,5.0,2.0,ameliaking@gmail.com,9403928176,,,7,15.0,3,0,1.457431404973028,0
+45,Khaleef,19,Male,16,1,9,2.0,2.0,2.0,2.0,2.0,71762133044@cit.edu.in,8072744511,,,16,6.0,10,144,-2.107840110352901,0
+46,Abith,35,Male,38,7,8,0.8,2.0,1.2,1.4,0.6,abisara@gmail.com,7893214591,,,38,4.800000000000001,15,304,-2.583209645729691,0
