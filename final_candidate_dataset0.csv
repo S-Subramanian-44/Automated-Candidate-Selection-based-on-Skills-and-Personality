@@ -1,60 +1,312 @@
-Candidate_ID,Name,Age,Gender,Skills,Education,Openness,Conscientiousness,Extroversion,Agreeableness,Neuroticism,Email,Mobile,Skill_Competency,Personality_Score,Years_Experience_Education,Skill_Education_Interaction,Normalized_Personality_Score,Hired
-1,Mark Thompson,29,Male,33,0,4,5,3,4,2,markthompson@gmail.com,,33,14,0,0,1.2252002176806576,0
-2,Alice Davis,28,Female,15,9,5,3,4,4,3,alicedavis@gmail.com,,15,13,9,135,0.9136191278394558,1
-3,Christopher White,30,Male,7,1,3,4,3,3,2,christopherwhite@gmail.com,,7,11,1,7,0.2904569481570525,0
-4,Emma Miller,31,Female,17,3,4,5,2,5,2,emmamiller@gmail.com,,17,14,3,51,1.2252002176806576,0
-5,Jack Robinson,27,Male,35,0,4,3,5,4,3,jackrobinson@gmail.com,,35,13,0,0,0.9136191278394558,0
-6,Sophia Turner,35,Female,30,4,5,4,3,4,4,sophiaturner@gmail.com,,30,12,4,120,0.6020380379982542,1
-7,David Smith,26,Male,4,0,3,4,2,3,2,davidsmith@gmail.com,,4,10,0,0,-0.02112414168414921,0
-8,Olivia Brown,33,Female,22,8,4,5,3,5,3,oliviabrown@gmail.com,,22,14,8,176,1.2252002176806576,1
-9,Matthew Hall,28,Male,24,1,3,3,2,3,4,matthewhall@gmail.com,,24,7,1,24,-0.9558674112077542,0
-10,Lily Taylor,30,Female,3,2,5,4,4,4,3,lilytaylor@gmail.com,,3,14,2,6,1.2252002176806576,0
-11,Andrew Davis,25,Male,38,0,3,4,2,4,3,andrewdavis@gmail.com,,38,10,0,0,-0.02112414168414921,0
-12,Sophie Smith,28,Female,14,0,4,3,4,3,2,sophiesmith@gmail.com,,14,12,0,0,0.6020380379982542,0
-13,Michael Johnson,31,Male,9,4,3,4,3,5,3,michaeljohnson@gmail.com,,9,12,4,36,0.6020380379982542,0
-14,Grace Williams,29,Female,18,3,5,5,2,4,2,gracewilliams@gmail.com,,18,14,3,54,1.2252002176806576,0
-15,John Davis,30,Male,36,9,4,3,5,4,3,johndavis@gmail.com,,36,13,9,324,0.9136191278394558,1
-16,Emma Brown,27,Female,11,0,3,4,2,3,2,emmabrown@gmail.com,,11,10,0,0,-0.02112414168414921,0
-17,William Miller,34,Male,32,8,4,5,3,5,3,williammiller@gmail.com,,32,14,8,256,1.2252002176806576,1
-18,Hannah Wilson,25,Female,1,1,3,3,2,3,4,hannahwilson@gmail.com,,1,7,1,1,-0.9558674112077542,0
-19,Charlie Anderson,30,Male,29,2,5,4,4,4,3,charlieanderson@gmail.com,,29,14,2,58,1.2252002176806576,0
-20,Daniel Taylor,28,Male,13,0,3,4,2,4,3,danieltaylor@gmail.com,,13,10,0,0,-0.02112414168414921,0
-21,Ava Martinez,32,Female,21,7,3,4,2,4,3,avamartinez@gmail.com,,21,10,7,147,-0.02112414168414921,0
-22,Leo Johnson,27,Male,26,4,5,4,3,4,4,leojohnson@gmail.com,,26,12,4,104,0.6020380379982542,1
-23,Chloe Turner,31,Female,5,0,4,5,2,5,2,chloeturner@gmail.com,,5,14,0,0,1.2252002176806576,0
-24,Noah Harris,30,Male,35,0,4,3,5,4,3,noahharris@gmail.com,,35,13,0,0,0.9136191278394558,0
-25,Ella White,34,Female,28,8,5,4,3,4,4,ellawhite@gmail.com,,28,12,8,224,0.6020380379982542,1
-26,Owen Robinson,26,Male,10,3,3,4,2,3,2,owenrobinson@gmail.com,,10,10,3,30,-0.02112414168414921,0
-27,Lily Thompson,32,Female,25,1,4,5,3,5,3,lilythompson@gmail.com,,25,14,1,25,1.2252002176806576,0
-28,Aiden Clark,25,Male,2,2,3,3,2,3,4,aidenclark@gmail.com,,2,7,2,4,-0.9558674112077542,0
-29,Harper Lewis,30,Male,20,7,5,4,4,4,3,harperlewis@gmail.com,,20,14,7,140,1.2252002176806576,1
-30,Carter Hall,28,Male,37,0,3,4,2,4,3,carterhall@gmail.com,,37,10,0,0,-0.02112414168414921,0
-31,Grace Adams,31,Female,12,0,3,4,2,4,3,graceadams@gmail.com,,12,10,0,0,-0.02112414168414921,0
-32,Jackson Moore,27,Male,32,8,3,4,2,4,3,jacksonmoore@gmail.com,,32,10,8,256,-0.02112414168414921,0
-33,Lily Walker,34,Female,1,3,4,5,2,5,2,lilywalker@gmail.com,,1,14,3,3,1.2252002176806576,0
-34,Wyatt Brooks,25,Male,30,4,4,3,4,3,2,wyattbrooks@gmail.com,,30,12,4,120,0.6020380379982542,1
-35,Zoey Foster,32,Male,6,7,5,4,3,4,4,zoeyfoster@gmail.com,,6,12,7,42,0.6020380379982542,0
-36,Owen Cooper,30,Male,19,1,3,3,2,3,4,owencooper@gmail.com,,19,7,1,19,-0.9558674112077542,0
-37,Ava Edwards,28,Female,34,2,3,4,2,4,3,avaedwards@gmail.com,,34,10,2,68,-0.02112414168414921,0
-38,Oliver Bryant,31,Male,0,0,3,4,2,4,3,oliverbryant@gmail.com,,0,10,0,0,-0.02112414168414921,0
-39,Emma Hayes,27,Female,16,0,3,4,2,4,3,emmahayes@gmail.com,,16,10,0,0,-0.02112414168414921,0
-40,Benjamin Ross,29,Male,27,4,5,4,3,4,4,benjaminross@gmail.com,,27,12,4,108,0.6020380379982542,1
-41,Amelia King,32,Female,8,0,4,5,3,5,2,ameliaking@gmail.com,,8,15,0,0,1.5367813075218593,0
-42,Khaleef,22,,41,11,2,2,2,2,2,71762133026@cit.edu.in,9025215884.0,41,6,11,451,-1.267448501048956,0
-43,MAlik,20,,41,11,2,2,2,2,2,71762133026@cit.edu.in,12345697258.0,41,6,11,451,-1.267448501048956,0
-44,Vishwa,45,,41,11,2,2,2,2,2,vishwa@gmail.com,9025215884.0,41,6,11,451,-1.267448501048956,0
-45,Vishwa,22,,41,11,2,2,2,2,2,71762133026@cit.edu.in,9894255077.0,41,6,11,451,-1.267448501048956,0
-46,Deepika,22,,41,11,2,2,2,2,2,deepika@gmail.com,7894562145.0,41,6,11,451,-1.267448501048956,0
-47,Krishnapriya S,19,Female,41,11,8,2,2,2,2,krishnapriyasri04@gmail.com,9047547774.0,41,12,11,451,0.6020380379982542,1
-48,Subramanian,19,Male,41,11,2,2,2,2,2,subramanian160104@gmail.com,8072744511.0,41,6,11,451,-1.267448501048956,0
-49,Vishwa,21,Male,41,11,2,2,2,2,2,vishwa@gmmail.com,7854841548.0,41,6,11,451,-1.267448501048956,0
-50,Subramanian ,19,Male,41,11,2,2,2,2,2,subbu160104@gmail.com,8072744511.0,41,6,11,451,-1.267448501048956,0
-51,Subramanian ,19,Male,41,11,2,2,2,2,2,mani@gmail,8072744511.0,41,6,11,451,-1.267448501048956,0
-52,rithis,19,Male,41,11,2,2,2,2,2,mani@gmail,8072744511.0,41,6,11,451,-1.267448501048956,0
-53,mani,12,Male,41,11,2,2,2,2,2,dfsud@gmail.com,7984785487.0,41,6,11,451,-1.267448501048956,0
-54,mani,12,Male,41,11,2,2,2,2,2,mani@gmail.com,87998989.0,41,6,11,451,-1.267448501048956,0
-55,mani,12,Male,23,5,2,2,2,2,2,mani@gmail.com,87998989.0,23,6,5,115,-1.267448501048956,0
-56,Khaleef,19,Male,31,6,2,2,2,2,2,71762133026@cit.edu.in,7898532989.0,31,6,6,186,-1.267448501048956,0
-57,Vishwa,21,Male,39,10,2,2,2,2,2,71762133050@cit.edu.in,7998553589.0,39,6,10,390,-1.267448501048956,0
-61,krishnaPriya,21,Female,40,11,4,3,3,5,2,71762133027@cit.edu.in,9047547774.0,40,13,11,440,0.9136191278394558,1
-62,KRISHNA PRIYA,21,Female,40,11,0,1,1,2,1,71762133027@cit.edu.in,9047547774.0,40,3,11,440,-2.202191770572561,0
+Candidate_ID,Name,Age,Gender,Skills,Education,Openness,Conscientiousness,Extroversion,Agreeableness,Neuroticism,Email,Mobile,Experience,Personality_Score,Experience_Norm,Auto_Hired_Label,Hired_Predicted
+1.0,Mark Thompson,29.0,Male,"java, python, sql",Bachelor's in Computer Science,4,5,3,4,2,markthompson@gmail.com,,0.0,3.6000000000000005,-1.019737150014712,1,1
+2.0,Alice Davis,28.0,Female,"c++, javascript, html/css",Master's in Software Engineering,5,3,4,4,3,alicedavis@gmail.com,,0.0,3.3,-1.019737150014712,0,0
+3.0,Christopher White,30.0,Male,"c#, php, data structures",Bachelor's in Information Systems,3,4,3,3,2,christopherwhite@gmail.com,,0.0,2.85,-1.019737150014712,0,0
+4.0,Emma Miller,31.0,Female,"python, r, data analysis",Bachelor's in Statistics,4,5,2,5,2,emmamiller@gmail.com,,0.0,3.6,-1.019737150014712,1,1
+5.0,Jack Robinson,27.0,Male,"javascript, react, node.js",Bachelor's in Computer Science,4,3,5,4,3,jackrobinson@gmail.com,,0.0,3.25,-1.019737150014712,0,0
+6.0,Sophia Turner,35.0,Female,"php, html/css, ux design",Bachelor's in Web Design,5,4,3,4,4,sophiaturner@gmail.com,,0.0,3.2500000000000004,-1.019737150014712,0,0
+7.0,David Smith,26.0,Male,"c++, c#, data analysis",Bachelor's in Computer Science,3,4,2,3,2,davidsmith@gmail.com,,0.0,2.6500000000000004,-1.019737150014712,0,0
+8.0,Olivia Brown,33.0,Female,"python, data science, machine learning",Master's in Data Science,4,5,3,5,3,oliviabrown@gmail.com,,0.0,3.6499999999999995,-1.019737150014712,1,1
+9.0,Matthew Hall,28.0,Male,"java, sql, database administration",Bachelor's in Information Systems,3,3,2,3,4,matthewhall@gmail.com,,0.0,2.05,-1.019737150014712,0,0
+10.0,Lily Taylor,30.0,Female,"javascript, react, angular",Bachelor's in Software Engineering,5,4,4,4,3,lilytaylor@gmail.com,,0.0,3.5999999999999996,-1.019737150014712,0,0
+11.0,Andrew Davis,25.0,Male,"python, javascript, sql",Bachelor's in Computer Science,3,4,2,4,3,andrewdavis@gmail.com,,0.0,2.7,-1.019737150014712,0,0
+12.0,Sophie Smith,28.0,Female,"java, c++, html",Bachelor's in Computer Science,4,3,4,3,2,sophiesmith@gmail.com,,0.0,3.0000000000000004,-1.019737150014712,0,0
+13.0,Michael Johnson,31.0,Male,"c#, php, ux design",Bachelor's in Web Design,3,4,3,5,3,michaeljohnson@gmail.com,,0.0,3.0999999999999996,-1.019737150014712,0,0
+14.0,Grace Williams,29.0,Female,"python, data analysis, react",Bachelor's in Statistics,5,5,2,4,2,gracewilliams@gmail.com,,0.0,3.6500000000000004,-1.019737150014712,1,1
+15.0,John Davis,30.0,Male,"javascript, node.js, sql",Master's in Software Engineering,4,3,5,4,3,johndavis@gmail.com,,0.0,3.25,-1.019737150014712,0,0
+16.0,Emma Brown,27.0,Female,"c++, data structures, html/css",Bachelor's in Computer Science,3,4,2,3,2,emmabrown@gmail.com,,0.0,2.6500000000000004,-1.019737150014712,0,0
+17.0,William Miller,34.0,Male,"java, python, machine learning",Master's in Data Science,4,5,3,5,3,williammiller@gmail.com,,0.0,3.6499999999999995,-1.019737150014712,1,1
+18.0,Hannah Wilson,25.0,Female,"javascript, angular, data analysis",Bachelor's in Information Systems,3,3,2,3,4,hannahwilson@gmail.com,,0.0,2.05,-1.019737150014712,0,0
+19.0,Charlie Anderson,30.0,Male,"php, html/css, react",Bachelor's in Software Engineering,5,4,4,4,3,charlieanderson@gmail.com,,0.0,3.5999999999999996,-1.019737150014712,0,0
+20.0,Daniel Taylor,28.0,Male,"c++, sql, database administration",Bachelor's in Computer Science,3,4,2,4,3,danieltaylor@gmail.com,,0.0,2.7,-1.019737150014712,0,0
+21.0,Ava Martinez,32.0,Female,"python, javascript, data science",Master's in Computer Science,3,4,2,4,3,avamartinez@gmail.com,,0.0,2.7,-1.019737150014712,0,0
+22.0,Leo Johnson,27.0,Male,"java, html/css, ux design",Bachelor's in Web Design,5,4,3,4,4,leojohnson@gmail.com,,0.0,3.2500000000000004,-1.019737150014712,0,0
+23.0,Chloe Turner,31.0,Female,"c#, data structures, data analysis",Bachelor's in Computer Science,4,5,2,5,2,chloeturner@gmail.com,,0.0,3.6,-1.019737150014712,0,0
+24.0,Noah Harris,30.0,Male,"javascript, react, node.js",Bachelor's in Computer Science,4,3,5,4,3,noahharris@gmail.com,,0.0,3.25,-1.019737150014712,0,0
+25.0,Ella White,34.0,Female,"php, html/css, machine learning",Master's in Data Science,5,4,3,4,4,ellawhite@gmail.com,,0.0,3.2500000000000004,-1.019737150014712,1,1
+26.0,Owen Robinson,26.0,Male,"c++, java, data analysis",Bachelor's in Statistics,3,4,2,3,2,owenrobinson@gmail.com,,0.0,2.6500000000000004,-1.019737150014712,0,0
+27.0,Lily Thompson,32.0,Female,"python, ux design, database administration",Bachelor's in Information Systems,4,5,3,5,3,lilythompson@gmail.com,,0.0,3.6499999999999995,-1.019737150014712,1,1
+28.0,Aiden Clark,25.0,Male,"java, sql, angular",Bachelor's in Software Engineering,3,3,2,3,4,aidenclark@gmail.com,,0.0,2.05,-1.019737150014712,0,0
+29.0,Harper Lewis,30.0,Male,"javascript, html/css, data science",Master's in Computer Science,5,4,4,4,3,harperlewis@gmail.com,,0.0,3.5999999999999996,-1.019737150014712,0,0
+30.0,Carter Hall,28.0,Male,"python, javascript, react",Bachelor's in Computer Science,3,4,2,4,3,carterhall@gmail.com,,0.0,2.7,-1.019737150014712,0,0
+31.0,Grace Adams,31.0,Female,"c++, data structures, sql",Bachelor's in Computer Science,3,4,2,4,3,graceadams@gmail.com,,0.0,2.7,-1.019737150014712,0,0
+32.0,Jackson Moore,27.0,Male,"java, python, machine learning",Master's in Data Science,3,4,2,4,3,jacksonmoore@gmail.com,,0.0,2.7,-1.019737150014712,1,1
+33.0,Lily Walker,34.0,Female,"javascript, angular, data analysis",Bachelor's in Statistics,4,5,2,5,2,lilywalker@gmail.com,,0.0,3.6,-1.019737150014712,0,0
+34.0,Wyatt Brooks,25.0,Male,"php, html/css, ux design",Bachelor's in Web Design,4,3,4,3,2,wyattbrooks@gmail.com,,0.0,3.0000000000000004,-1.019737150014712,0,0
+35.0,Zoey Foster,32.0,Male,"c#, data structures, machine learning",Master's in Computer Science,5,4,3,4,4,zoeyfoster@gmail.com,,0.0,3.2500000000000004,-1.019737150014712,1,1
+36.0,Owen Cooper,30.0,Male,"python, data science, database administration",Bachelor's in Information Systems,3,3,2,3,4,owencooper@gmail.com,,0.0,2.05,-1.019737150014712,0,0
+37.0,Ava Edwards,28.0,Female,"java, sql, react",Bachelor's in Software Engineering,3,4,2,4,3,avaedwards@gmail.com,,0.0,2.7,-1.019737150014712,0,0
+38.0,Oliver Bryant,31.0,Male,"c++, javascript, angular",Bachelor's in Computer Science,3,4,2,4,3,oliverbryant@gmail.com,,0.0,2.7,-1.019737150014712,0,0
+39.0,Emma Hayes,27.0,Female,"python, data analysis, node.js",Bachelor's in Computer Science,3,4,2,4,3,emmahayes@gmail.com,,0.0,2.7,-1.019737150014712,0,0
+40.0,Benjamin Ross,29.0,Male,"javascript, html/css, ux design",Bachelor's in Web Design,5,4,3,4,4,benjaminross@gmail.com,,0.0,3.2500000000000004,-1.019737150014712,0,0
+41.0,Amelia King,32.0,Female,"c#, data structures, sql",Bachelor's in Computer Science,4,5,3,5,2,ameliaking@gmail.com,,0.0,3.8,-1.019737150014712,0,0
+42.0,Khaleef,22.0,,,,2,2,2,2,2,71762133026@cit.edu.in,9025215884.0,0.0,1.5999999999999999,-1.019737150014712,0,0
+43.0,MAlik,20.0,,,,2,2,2,2,2,71762133026@cit.edu.in,12345697258.0,0.0,1.5999999999999999,-1.019737150014712,0,0
+44.0,Vishwa,45.0,,,,2,2,2,2,2,vishwa@gmail.com,9025215884.0,0.0,1.5999999999999999,-1.019737150014712,0,0
+45.0,Vishwa,22.0,,,,2,2,2,2,2,71762133026@cit.edu.in,9894255077.0,0.0,1.5999999999999999,-1.019737150014712,0,0
+46.0,Deepika,22.0,,,,2,2,2,2,2,deepika@gmail.com,7894562145.0,0.0,1.5999999999999999,-1.019737150014712,0,0
+47.0,Krishnapriya S,19.0,Female,,,8,2,2,2,2,krishnapriyasri04@gmail.com,9047547774.0,0.0,3.1,-1.019737150014712,0,0
+48.0,Subramanian,19.0,Male,,,2,2,2,2,2,subramanian160104@gmail.com,8072744511.0,0.0,1.5999999999999999,-1.019737150014712,0,0
+49.0,Vishwa,21.0,Male,,,2,2,2,2,2,vishwa@gmmail.com,7854841548.0,0.0,1.5999999999999999,-1.019737150014712,0,0
+50.0,Subramanian ,19.0,Male,,,2,2,2,2,2,subbu160104@gmail.com,8072744511.0,0.0,1.5999999999999999,-1.019737150014712,0,0
+51.0,Subramanian ,19.0,Male,,,2,2,2,2,2,mani@gmail,8072744511.0,0.0,1.5999999999999999,-1.019737150014712,0,0
+52.0,rithis,19.0,Male,,,2,2,2,2,2,mani@gmail,8072744511.0,0.0,1.5999999999999999,-1.019737150014712,0,0
+53.0,mani,12.0,Male,,,2,2,2,2,2,dfsud@gmail.com,7984785487.0,0.0,1.5999999999999999,-1.019737150014712,0,0
+54.0,mani,12.0,Male,,,2,2,2,2,2,mani@gmail.com,87998989.0,0.0,1.5999999999999999,-1.019737150014712,0,0
+55.0,mani,12.0,Male,"sql, java, r, php, javascript, python, data structures, java, machine learning",Diploma,2,2,2,2,2,mani@gmail.com,87998989.0,0.0,1.5999999999999999,-1.019737150014712,1,1
+56.0,Khaleef,19.0,Male,"r, php, javascript, machine learning, python, sql, java","M.SC, M.Sc",2,2,2,2,2,71762133026@cit.edu.in,7898532989.0,0.0,1.5999999999999999,-1.019737150014712,1,1
+57.0,Vishwa,21.0,Male,"data analysis, python",m.sc,2,2,2,2,2,71762133050@cit.edu.in,7998553589.0,0.0,1.5999999999999999,-1.019737150014712,0,0
+61.0,krishnaPriya,21.0,Female,"machine learning, python, java",,4,3,3,5,2,71762133027@cit.edu.in,9047547774.0,0.0,3.2,-1.019737150014712,1,1
+62.0,KRISHNA PRIYA,21.0,Female,"java, python, machine learning",,0,1,1,2,1,71762133027@cit.edu.in,9047547774.0,0.0,0.75,-1.019737150014712,1,1
+63.0,Ram,21.0,Male,"python, data analysis, machine learning, php, r",m.sc,4,3,4,4,1,ram@gmail.com,8753598246.0,0.0,3.35,-1.019737150014712,1,1
+64.0,Subramanian S,20.0,Male,"sql, node.js, python, machine learning",m.sc,2,1,1,1,0,subramanian160104@gmail.com,8072744511.0,0.0,1.2,-1.019737150014712,1,1
+,Lekkhmiy Jzqyfdpz,,,"django, git, java, power bi, react, sql",Diploma,4,3,5,5,2,lekkhmiy.jzqyfdpz@gmail.com,,0.18,3.6,-0.3865862443156928,0,0
+,Vgxxkn Nciqblj,,,"css, data analysis, flask, html",MCA,4,3,2,2,2,vgxxkn.nciqblj@gmail.com,,0.06,2.4,-0.808686848115039,0,0
+,Kxbobq Xvzos,,,"c++, django, excel, machine learning, python, sql",Diploma,3,2,2,4,2,kxbobq.xvzos@gmail.com,,0.05,2.25,-0.8438618984316513,1,1
+,Hchaf Jrexs,,,"c++, react",B.Sc,4,4,4,3,1,hchaf.jrexs@gmail.com,,0.14,3.45,-0.5272864455821414,0,0
+,Hrzab Zmaen,,,"css, django, excel, git, python, react",B.E,4,4,3,2,4,hrzab.zmaen@gmail.com,,0.28,2.6,-0.03483574114957074,0,0
+,Mpehv Fhecsfje,,,"data analysis, django, excel, python",BCA,5,3,2,4,4,mpehv.fhecsfje@gmail.com,,0.03,2.7499999999999996,-0.9142119990648755,0,0
+,Vphuzhc Ugczx,,,"git, html",B.E,5,3,2,5,1,vphuzhc.ugczx@gmail.com,,0.53,3.4,0.844540516765734,0,0
+,Pghcqh Tmxlsmbg,,,"c++, css, data analysis, flask, python",B.Sc,4,2,2,2,3,pghcqh.tmxlsmbg@gmail.com,,0.03,1.95,-0.9142119990648755,0,0
+,Mlwljol Kiktrpqf,,,"data analysis, python",BCA,3,4,5,3,4,mlwljol.kiktrpqf@gmail.com,,0.13,2.95,-0.5624614958987537,0,0
+,Hhnybasv Zbrnnmbo,,,"c++, css, data analysis, java, power bi, react",BCA,4,5,5,4,2,hhnybasv.zbrnnmbo@gmail.com,,0.03,4.0,-0.9142119990648755,0,0
+,Ksbxip Kmuinuqh,,,"css, git, html, javascript, python",MCA,5,4,2,2,4,ksbxip.kmuinuqh@gmail.com,,0.0,2.65,-1.019737150014712,0,0
+,Xvpbq Ffdbhnb,,,"css, javascript, machine learning, power bi, python",B.Tech,2,2,4,4,2,xvpbq.ffdbhnb@gmail.com,,0.54,2.4000000000000004,0.8797155670823462,1,1
+,Kophshc Xsznbfm,,,"css, git, power bi, sql",B.Tech,2,4,3,5,2,kophshc.xsznbfm@gmail.com,,0.02,3.0,-0.9493870493814878,0,0
+,Btkekn Jiyruht,,,"javascript, python",MCA,4,2,2,4,3,btkekn.jiyruht@gmail.com,,0.53,2.3499999999999996,0.844540516765734,0,0
+,Wanme Cqnrze,,,"data analysis, java, machine learning",BCA,5,3,3,5,1,wanme.cqnrze@gmail.com,,0.39,3.6,0.35208981233316333,1,1
+,Bemfcgvu Omegipm,,,"c++, data analysis, git, power bi, react",B.Tech,2,3,3,3,4,bemfcgvu.omegipm@gmail.com,,0.44,2.0,0.5279650639162242,0,0
+,Bynsjaw Ovqgb,,,"c++, excel, flask, git, html, java",BCA,3,3,3,3,3,bynsjaw.ovqgb@gmail.com,,0.39,2.4000000000000004,0.35208981233316333,0,0
+,Uettxviu Cemvbhr,,,"java, javascript, react",B.Tech,4,2,5,4,2,uettxviu.cemvbhr@gmail.com,,0.15,3.1000000000000005,-0.49211139526552933,0,0
+,Jndtpe Rensnr,,,"django, html, machine learning, python, react, sql",MCA,3,4,4,4,1,jndtpe.rensnr@gmail.com,,0.29,3.4,0.00033930916704128736,1,1
+,Upxywsnu Glbumdwt,,,"css, java, python",B.E,2,3,5,3,1,upxywsnu.glbumdwt@gmail.com,,0.41,2.85,0.42243991296638755,0,0
+,Csjmt Rsbnjr,,,"c++, git, machine learning, react",BCA,4,5,2,2,3,csjmt.rsbnjr@gmail.com,,0.2,2.8499999999999996,-0.31623614368246833,0,0
+,Jkrjbn Eyzkudd,,,"c++, machine learning, python",B.Tech,2,3,5,3,2,jkrjbn.eyzkudd@gmail.com,,0.06,2.7,-0.808686848115039,1,1
+,Zvscj Sepura,,,"c++, excel, flask, git, javascript, python",B.Sc,2,4,3,4,3,zvscj.sepura@gmail.com,,0.12,2.6499999999999995,-0.5976365462153659,0,0
+,Umjpj Yivzknw,,,"django, git, java, javascript, react",B.Sc,3,3,2,5,1,umjpj.yivzknw@gmail.com,,0.53,2.9,0.844540516765734,0,0
+,Fjowew Xgjicp,,,"django, java",B.Sc,5,3,5,2,4,fjowew.xgjicp@gmail.com,,0.29,2.9499999999999997,0.00033930916704128736,0,0
+,Psadgvc Ebsrbfxv,,,"git, machine learning, python, sql",B.E,5,2,5,5,3,psadgvc.ebsrbfxv@gmail.com,,0.21,3.4000000000000004,-0.2810610933658562,1,1
+,Pkvnflrz Vhrzvra,,,"django, machine learning",B.E,5,3,4,5,3,pkvnflrz.vhrzvra@gmail.com,,0.23,3.5,-0.21071099273263175,1,1
+,Qmdfzax Wgbhtf,,,"c++, css, django, flask, machine learning, python, react, sql",MCA,4,4,5,5,1,qmdfzax.wgbhtf@gmail.com,,0.7,4.05,1.442516372148141,1,1
+,Yvsez Nsjit,,,"c++, django, javascript, python, sql",B.E,5,5,2,5,1,yvsez.nsjit@gmail.com,,0.37,4.0,0.2817397116999389,1,1
+,Cbrzx Naisy,,,"css, javascript, python, react, sql",B.Tech,5,5,2,4,2,cbrzx.naisy@gmail.com,,0.03,3.6500000000000004,-0.9142119990648755,1,1
+,Hgdiqr Epfkxs,,,"machine learning, power bi, python, react",B.Sc,4,4,3,4,2,hgdiqr.epfkxs@gmail.com,,0.25,3.3000000000000007,-0.1403608920994074,1,1
+,Aafrvcoh Vudqkobn,,,"java, machine learning, power bi, python, sql",BCA,3,3,4,2,1,aafrvcoh.vudqkobn@gmail.com,,0.58,2.7,1.0204157683487947,1,1
+,Keddofwx Omzbvcgl,,,"c++, django, flask, html, machine learning, python",MCA,2,2,5,4,2,keddofwx.omzbvcgl@gmail.com,,0.47,2.6000000000000005,0.6334902148660607,1,1
+,Sivmcgg Arphxru,,,"machine learning, react",Diploma,3,5,5,4,4,sivmcgg.arphxru@gmail.com,,0.41,3.4499999999999997,0.42243991296638755,1,1
+,Yleygdv Gqlls,,,"data analysis, excel, python, react",B.Sc,2,4,3,2,1,yleygdv.gqlls@gmail.com,,0.03,2.55,-0.9142119990648755,0,0
+,Urhbcil Wcwvez,,,"data analysis, flask, python, sql",BCA,3,2,3,5,1,urhbcil.wcwvez@gmail.com,,1.01,2.8000000000000003,2.532942931963119,0,0
+,Yfsyi Yjjocen,,,"c++, machine learning, power bi, sql",Diploma,5,3,2,5,2,yfsyi.yjjocen@gmail.com,,0.12,3.25,-0.5976365462153659,1,1
+,Oyglqav Puruhu,,,"html, python",BCA,4,4,5,2,4,oyglqav.puruhu@gmail.com,,0.8,3.0,1.7942668753142632,0,0
+,Qncms Lqufoqgl,,,"css, excel, flask, power bi, react",B.Tech,5,2,3,3,4,qncms.lqufoqgl@gmail.com,,0.57,2.45,0.9852407180321825,0,0
+,Yntvqjp Uabhfprf,,,"css, excel, flask, java, javascript, machine learning, react",BCA,4,4,3,3,2,yntvqjp.uabhfprf@gmail.com,,0.48,3.1000000000000005,0.6686652651826729,1,1
+,Wfvyyy Gezmxh,,,"css, data analysis, excel, power bi, python",MCA,4,5,4,3,2,wfvyyy.gezmxh@gmail.com,,0.09,3.6,-0.7031616971652025,1,1
+,Fzeqgoh Pwmjwxtl,,,"css, data analysis, java, machine learning, power bi, python, sql",B.E,4,5,5,5,2,fzeqgoh.pwmjwxtl@gmail.com,,0.7,4.2,1.442516372148141,1,1
+,Ufzrqrif Utgsognw,,,"c++, data analysis, excel, react",B.Sc,5,4,2,3,2,ufzrqrif.utgsognw@gmail.com,,0.93,3.1500000000000004,2.2515425294302216,0,0
+,Bgszqs Vdwyxph,,,"c++, power bi, python, sql",B.E,3,2,4,5,4,bgszqs.vdwyxph@gmail.com,,0.39,2.5500000000000003,0.35208981233316333,0,0
+,Rhjfua Cnnxjrwo,,,"flask, html, java, machine learning, python, react",B.E,2,4,3,4,2,rhjfua.cnnxjrwo@gmail.com,,0.14,2.8,-0.5272864455821414,1,1
+,Toculwh Rdvenqu,,,"flask, java, python",BCA,4,4,3,3,1,toculwh.rdvenqu@gmail.com,,0.39,3.2500000000000004,0.35208981233316333,1,1
+,Nedlfvb Vrvtob,,,"django, java",Diploma,5,4,5,3,4,nedlfvb.vrvtob@gmail.com,,0.08,3.4500000000000006,-0.7383367474818145,0,0
+,Vyryrrj Xiljvkgc,,,"css, excel, flask, html, sql",BCA,5,3,5,3,1,vyryrrj.xiljvkgc@gmail.com,,0.16,3.6,-0.4569363449489171,0,0
+,Wwonzuh Sxjfi,,,"data analysis, django, excel, git, html, sql",BCA,3,3,5,5,2,wwonzuh.sxjfi@gmail.com,,0.6,3.35,1.0907658689820192,0,0
+,Bmaetro Otmkmr,,,"css, data analysis, flask, html, power bi, python",BCA,2,4,4,3,2,bmaetro.otmkmr@gmail.com,,0.06,2.8000000000000003,-0.808686848115039,0,0
+,Uslgy Ojisqu,,,"data analysis, git, java, power bi, python, react, sql",B.Tech,3,2,5,5,1,uslgy.ojisqu@gmail.com,,0.43,3.2,0.492790013599612,1,1
+,Npedfij Pkhrfyfo,,,"django, git, machine learning",BCA,4,3,3,5,3,npedfij.pkhrfyfo@gmail.com,,0.56,3.05,0.9500656677155707,1,1
+,Gkpqn Qkclgilc,,,"git, javascript, power bi",B.Tech,4,2,2,3,4,gkpqn.qkclgilc@gmail.com,,0.02,2.0,-0.9493870493814878,0,0
+,Dxfast Puciqufs,,,"django, machine learning, react, sql",BCA,5,2,2,2,4,dxfast.puciqufs@gmail.com,,0.18,2.05,-0.3865862443156928,0,0
+,Isghyiq Ihibprq,,,"c++, react",B.Tech,4,2,5,2,1,isghyiq.ihibprq@gmail.com,,0.71,2.85,1.4776914224647533,0,0
+,Ezrzpsw Tujcee,,,"css, data analysis, javascript, machine learning, sql",Diploma,5,2,5,5,4,ezrzpsw.tujcee@gmail.com,,0.75,3.25,1.6183916237312022,1,1
+,Zprftzeb Xmhmlmvw,,,"flask, java, machine learning, sql",B.Sc,2,3,4,4,4,zprftzeb.xmhmlmvw@gmail.com,,1.0,2.4,2.497767881646507,0,0
+,Vbvng Vwjhwpo,,,"data analysis, django, javascript, python",B.Sc,4,3,3,4,1,vbvng.vwjhwpo@gmail.com,,0.13,3.15,-0.5624614958987537,1,0
+,Orxspxe Wlmrem,,,"c++, git, python",B.Tech,4,4,3,5,4,orxspxe.wlmrem@gmail.com,,0.64,3.2,1.231466070248468,1,1
+,Sqogj Vwbyqs,,,"data analysis, django, html, power bi, python",BCA,5,5,5,2,2,sqogj.vwbyqs@gmail.com,,0.14,3.8500000000000005,-0.5272864455821414,1,1
+,Nbrtaxvj Fbphy,,,"css, data analysis, flask, javascript, machine learning, power bi, python",B.Tech,5,4,2,4,1,nbrtaxvj.fbphy@gmail.com,,0.06,3.5000000000000004,-0.808686848115039,1,1
+,Nepieaqn Fyyre,,,"python, react",Diploma,4,5,5,4,2,nepieaqn.fyyre@gmail.com,,0.16,4.0,-0.4569363449489171,1,1
+,Mvdcds Wrzpuuj,,,"data analysis, excel, machine learning, python",B.Sc,5,3,3,2,1,mvdcds.wrzpuuj@gmail.com,,0.24,3.0,-0.17553594241601964,1,1
+,Igjfb Prcbepeo,,,"machine learning, python, react",MCA,4,3,5,2,2,igjfb.prcbepeo@gmail.com,,0.08,3.0,-0.7383367474818145,1,1
+,Qaklnetc Ovabhkxw,,,"excel, flask, python, sql",BCA,3,5,3,4,1,qaklnetc.ovabhkxw@gmail.com,,0.26,3.5000000000000004,-0.10518584178279518,1,1
+,Hotwfr Gluyts,,,"css, git, html, machine learning, power bi, python",BCA,4,3,3,2,1,hotwfr.gluyts@gmail.com,,0.02,2.75,-0.9493870493814878,1,1
+,Fmggvcbq Bpswypdx,,,"c++, css, data analysis, python",B.Tech,3,3,4,4,4,fmggvcbq.bpswypdx@gmail.com,,0.43,2.65,0.492790013599612,0,0
+,Xzvhgorf Fjalg,,,"css, flask, git, html, java, javascript",Diploma,4,4,5,5,1,xzvhgorf.fjalg@gmail.com,,0.59,4.05,1.055590818665407,0,0
+,Udbcb Cwdmsfjv,,,"data analysis, excel, java, javascript, react, sql",MCA,5,5,5,4,3,udbcb.cwdmsfjv@gmail.com,,0.66,4.1,1.3018161708816924,0,0
+,Yhyjflna Hlutoh,,,"css, data analysis, django, javascript, power bi, python",B.Sc,4,5,5,5,1,yhyjflna.hlutoh@gmail.com,,0.28,4.35,-0.03483574114957074,1,1
+,Xwkcdre Opvawwe,,,"git, java, machine learning",B.Tech,4,5,5,3,1,xwkcdre.opvawwe@gmail.com,,0.09,3.9499999999999997,-0.7031616971652025,1,1
+,Qjhlo Epxsfx,,,"data analysis, excel, javascript, machine learning, power bi",B.E,3,3,3,3,4,qjhlo.epxsfx@gmail.com,,0.17,2.25,-0.4217612946323049,0,0
+,Ebkqt Tcggnpa,,,"css, data analysis, java, javascript, python, sql",B.Sc,4,3,4,3,2,ebkqt.tcggnpa@gmail.com,,0.6,3.0000000000000004,1.0907658689820192,1,1
+,Vagrckap Grggpds,,,"django, machine learning",Diploma,2,2,3,5,2,vagrckap.grggpds@gmail.com,,1.27,2.4000000000000004,3.447494240195036,0,0
+,Vbqpwj Cefth,,,"c++, data analysis, python, react",Diploma,5,4,3,2,4,vbqpwj.cefth@gmail.com,,0.41,2.85,0.42243991296638755,0,0
+,Avxgvysl Wiwpkjl,,,"css, javascript, power bi, sql",B.Sc,5,4,5,2,4,avxgvysl.wiwpkjl@gmail.com,,0.18,3.25,-0.3865862443156928,0,0
+,Lwmosfr Aehusjgh,,,"data analysis, excel, javascript, python, react, sql",B.E,4,5,4,2,1,lwmosfr.aehusjgh@gmail.com,,0.5,3.55,0.7390153658158973,1,1
+,Nxubdl Vlxssn,,,"flask, git, javascript, machine learning, sql",B.E,2,3,4,5,2,nxubdl.vlxssn@gmail.com,,0.15,2.9000000000000004,-0.49211139526552933,0,1
+,Ihbhuvot Eukeiwd,,,"django, git, html, javascript, python, sql",BCA,5,3,4,4,4,ihbhuvot.eukeiwd@gmail.com,,0.62,3.15,1.1611159696152435,1,1
+,Itntfpk Rctuy,,,"excel, git, html, javascript, power bi, python",MCA,4,2,3,5,3,itntfpk.rctuy@gmail.com,,0.09,2.75,-0.7031616971652025,0,0
+,Fmdguwz Fxhhgxf,,,"data analysis, excel, git, power bi, python",MCA,3,5,2,2,2,fmdguwz.fxhhgxf@gmail.com,,0.49,2.75,0.7038403154992852,0,0
+,Bvzrb Cilesas,,,"git, javascript, machine learning",B.Sc,2,5,4,3,4,bvzrb.cilesas@gmail.com,,0.29,2.8,0.00033930916704128736,0,0
+,Iofbdhp Abtrw,,,"css, html, java, javascript, machine learning, react",B.Sc,2,3,5,5,1,iofbdhp.abtrw@gmail.com,,0.14,3.25,-0.5272864455821414,1,1
+,Csbfvb Lqoir,,,"css, excel, html, python, react",BCA,4,4,2,5,4,csbfvb.lqoir@gmail.com,,0.57,3.0,0.9852407180321825,0,0
+,Nylrn Rkrlgzlu,,,"data analysis, machine learning, power bi, react",BCA,2,5,5,2,4,nylrn.rkrlgzlu@gmail.com,,0.84,2.8,1.9349670765807117,0,0
+,Iewbty Sixqe,,,"git, java, javascript, machine learning, python",BCA,2,5,3,3,4,iewbty.sixqe@gmail.com,,0.3,2.6,0.03551435948365351,1,1
+,Cpuzjjqf Spxuaacq,,,"c++, java, machine learning, python",MCA,4,3,4,4,1,cpuzjjqf.spxuaacq@gmail.com,,0.69,3.35,1.4073413218315287,1,1
+,Rkjagvoi Fltghek,,,"django, python",MCA,4,2,4,3,2,rkjagvoi.fltghek@gmail.com,,0.51,2.7000000000000006,0.7741904161325096,0,0
+,Uqjxg Yttsflfc,,,"css, excel, flask, html, machine learning, power bi",B.E,5,5,4,2,4,uqjxg.yttsflfc@gmail.com,,0.12,3.3499999999999996,-0.5976365462153659,1,1
+,Umxatr Vmtyz,,,"c++, django, git, java, python, sql",B.Tech,2,2,3,4,2,umxatr.vmtyz@gmail.com,,0.15,2.2,-0.49211139526552933,0,0
+,Yietwxg Jgampb,,,"c++, data analysis, excel, html, power bi, python, react",B.Sc,4,3,3,3,2,yietwxg.jgampb@gmail.com,,0.77,2.8000000000000003,1.6887417243644265,0,0
+,Gcoymqzm Lsohlc,,,"flask, git, html, javascript, machine learning, python",B.Tech,3,4,4,4,4,gcoymqzm.lsohlc@gmail.com,,0.16,2.9499999999999997,-0.4569363449489171,1,1
+,Fisyuvj Uiapuln,,,"c++, data analysis, html, machine learning, power bi, python",B.Sc,4,5,4,5,1,fisyuvj.uiapuln@gmail.com,,0.76,4.1499999999999995,1.6535666740478143,1,1
+,Nivxst Xiessw,,,"css, git, machine learning",MCA,3,5,2,3,4,nivxst.xiessw@gmail.com,,0.27,2.65,-0.07001079146618296,0,0
+,Yinehd Xteenz,,,"data analysis, flask, machine learning",B.Tech,2,2,5,2,4,yinehd.xteenz@gmail.com,,0.33,1.9,0.14103951043349017,0,0
+,Cbmnp Mlxgblhe,,,"data analysis, flask, git, machine learning, power bi, python, react",B.E,4,5,2,4,4,cbmnp.mlxgblhe@gmail.com,,0.19,3.1,-0.35141119399908055,1,1
+,Bwuktfzz Xrvzdmh,,,"data analysis, django, html, power bi, python",Diploma,2,2,3,5,2,bwuktfzz.xrvzdmh@gmail.com,,0.35,2.4000000000000004,0.21138961106671442,0,0
+,Fgetqswp Wjrwyy,,,"data analysis, excel, sql",BCA,2,4,5,3,1,fgetqswp.wjrwyy@gmail.com,,0.06,3.1500000000000004,-0.808686848115039,0,0
+,Hqalk Cydctqfa,,,"c++, css, django, excel, flask, java, machine learning, python",MCA,3,4,2,4,4,hqalk.cydctqfa@gmail.com,,0.14,2.5500000000000003,-0.5272864455821414,1,1
+,Lizmfle Knvxxuk,,,"html, java, machine learning",BCA,4,5,4,5,2,lizmfle.knvxxuk@gmail.com,,0.94,4.0,2.2867175797468335,1,1
+,Jiney Kmmwb,,,"excel, git, html, power bi, react",B.Tech,4,3,3,3,4,jiney.kmmwb@gmail.com,,0.32,2.5,0.10586446011687796,0,0
+,Owpnonz Ascmdwtm,,,"django, flask, html, java, javascript, python",B.Tech,3,3,3,4,2,owpnonz.ascmdwtm@gmail.com,,0.61,2.75,1.1259409192986314,0,0
+,Csacplu Bardzhdq,,,"c++, data analysis, flask, java, machine learning, python",B.E,3,3,3,5,1,csacplu.bardzhdq@gmail.com,,0.49,3.1,0.7038403154992852,1,1
+,Dojnov Qhkdum,,,"c++, data analysis, django, git, html, java",B.Tech,2,5,2,2,2,dojnov.qhkdum@gmail.com,,0.21,2.5,-0.2810610933658562,0,0
+,Rypqfxnr Uvzli,,,"c++, css, data analysis, machine learning, python, react, sql",B.Tech,2,2,2,5,4,rypqfxnr.uvzli@gmail.com,,0.69,1.9,1.4073413218315287,1,1
+,Rhfhhs Moezd,,,"data analysis, flask, html, machine learning, python",Diploma,2,5,5,3,1,rhfhhs.moezd@gmail.com,,0.05,3.45,-0.8438618984316513,1,1
+,Cbpmgjaj Axystzl,,,"django, git, python",BCA,4,3,4,5,4,cbpmgjaj.axystzl@gmail.com,,0.11,3.1,-0.6328115965319782,1,1
+,Caihik Mdzyktsg,,,"data analysis, java, python",BCA,5,5,5,3,4,caihik.mdzyktsg@gmail.com,,0.79,3.7499999999999996,1.759091824997651,1,1
+,Fphflohf Oqftlouc,,,"django, flask, java, javascript, machine learning",BCA,2,5,4,5,3,fphflohf.oqftlouc@gmail.com,,0.16,3.3499999999999996,-0.4569363449489171,1,1
+,Zdyirrsn Rafibtku,,,"c++, git, machine learning, python, sql",BCA,3,4,2,4,3,zdyirrsn.rafibtku@gmail.com,,0.06,2.7,-0.808686848115039,1,1
+,Ybjffmd Hvchp,,,"data analysis, django, git, javascript, python, sql",Diploma,5,2,4,4,4,ybjffmd.hvchp@gmail.com,,0.43,2.85,0.492790013599612,0,0
+,Ixvzki Zoxubsxj,,,"data analysis, python",B.Tech,4,4,2,2,4,ixvzki.zoxubsxj@gmail.com,,0.14,2.4,-0.5272864455821414,0,0
+,Raqex Anorsp,,,"excel, html, java, javascript, machine learning, sql",BCA,3,3,4,5,1,raqex.anorsp@gmail.com,,0.38,3.3000000000000003,0.3169147620165511,1,1
+,Pwwjiwh Ctcxhc,,,"data analysis, excel, flask, java, machine learning, python, sql",Diploma,5,5,5,5,4,pwwjiwh.ctcxhc@gmail.com,,0.17,4.15,-0.4217612946323049,1,1
+,Ulkii Nvcdzv,,,"flask, git, html, java, power bi, python",Diploma,3,2,4,2,4,ulkii.nvcdzv@gmail.com,,0.25,1.9500000000000002,-0.1403608920994074,0,0
+,Zamjuz Xpzzkc,,,"css, excel, python, react",MCA,5,4,4,2,1,zamjuz.xpzzkc@gmail.com,,0.28,3.5,-0.03483574114957074,1,1
+,Almmifp Ptwjek,,,"java, machine learning, python, react",BCA,3,2,3,3,3,almmifp.ptwjek@gmail.com,,0.9,2.1000000000000005,2.146017378480385,1,1
+,Pnlbf Hykthap,,,"c++, data analysis, django, excel, flask, sql",B.E,3,4,3,5,3,pnlbf.hykthap@gmail.com,,0.39,3.0999999999999996,0.35208981233316333,0,0
+,Rbjjzbsz Idxtxp,,,"data analysis, django, python, react",Diploma,3,3,2,5,2,rbjjzbsz.idxtxp@gmail.com,,1.08,2.75,2.7791682841794048,0,0
+,Rgsiwcha Ylywqlge,,,"machine learning, power bi, python, sql",B.E,4,4,2,4,1,rgsiwcha.ylywqlge@gmail.com,,0.33,3.2500000000000004,0.14103951043349017,1,1
+,Zoordaj Ezpmtok,,,"css, html, python",B.Tech,4,4,4,5,4,zoordaj.ezpmtok@gmail.com,,0.78,3.4,1.7239167746810389,1,1
+,Dplrjh Oxmwgrl,,,"flask, git, machine learning, power bi, react",BCA,4,5,4,5,4,dplrjh.oxmwgrl@gmail.com,,0.55,3.6999999999999997,0.9148906173989585,1,1
+,Okzxm Gscguqmn,,,"css, django, html, power bi, python, sql",B.Tech,2,3,3,2,2,okzxm.gscguqmn@gmail.com,,0.25,2.1,-0.1403608920994074,0,0
+,Snvinyvc Mwixr,,,"c++, django, flask, machine learning, python",MCA,3,4,4,3,4,snvinyvc.mwixr@gmail.com,,0.2,2.75,-0.31623614368246833,1,1
+,Saemln Shkqb,,,"git, machine learning, power bi, python, react",B.E,4,3,2,5,3,saemln.shkqb@gmail.com,,0.94,2.8499999999999996,2.2867175797468335,1,1
+,Sossmn Sapbvmui,,,"css, git, machine learning, react",B.Tech,4,5,3,2,2,sossmn.sapbvmui@gmail.com,,0.13,3.2,-0.5624614958987537,1,1
+,Kayaazz Qqudt,,,"css, data analysis, excel, python, sql",B.Tech,5,5,4,2,1,kayaazz.qqudt@gmail.com,,0.15,3.8,-0.49211139526552933,1,1
+,Mygdg Subvtv,,,"django, flask, html, machine learning",B.Sc,4,4,3,5,2,mygdg.subvtv@gmail.com,,0.14,3.5000000000000004,-0.5272864455821414,1,1
+,Tourea Iydsynih,,,"css, git, html, machine learning, python",B.E,2,2,4,4,3,tourea.iydsynih@gmail.com,,0.11,2.25,-0.6328115965319782,1,1
+,Dgevqvy Yuobkjjs,,,"c++, git, html, java, machine learning",B.Tech,5,4,2,2,3,dgevqvy.yuobkjjs@gmail.com,,0.08,2.8,-0.7383367474818145,0,0
+,Collwjm Mofbmq,,,"c++, git, html",B.Tech,5,2,4,3,3,collwjm.mofbmq@gmail.com,,0.05,2.8000000000000007,-0.8438618984316513,0,0
+,Ekpwkh Sdrbqmrr,,,"java, python, sql",B.Tech,4,5,2,3,1,ekpwkh.sdrbqmrr@gmail.com,,0.12,3.35,-0.5976365462153659,1,1
+,Dyltaat Qmynfrp,,,"data analysis, flask, git, html, javascript, python",B.E,3,5,5,3,3,dyltaat.qmynfrp@gmail.com,,0.47,3.4000000000000004,0.6334902148660607,1,1
+,Pghaq Avnkpi,,,"git, html, python",B.Tech,3,4,2,3,1,pghaq.avnkpi@gmail.com,,0.37,2.8000000000000003,0.2817397116999389,0,0
+,Lpkovuc Kscouxf,,,"css, excel, machine learning, power bi, python",B.Sc,5,3,2,5,1,lpkovuc.kscouxf@gmail.com,,0.17,3.4,-0.4217612946323049,1,1
+,Xwuqzla Bcijqbw,,,"css, data analysis, django, excel, git",MCA,3,4,3,4,2,xwuqzla.bcijqbw@gmail.com,,0.4,3.05,0.38726486264977555,0,0
+,Gjwmj Qpefj,,,"django, python, sql",B.Sc,5,5,2,3,1,gjwmj.qpefj@gmail.com,,0.69,3.6,1.4073413218315287,1,1
+,Bvbsdjjg Taelxg,,,"django, excel, flask, html, react",B.Tech,5,5,3,5,2,bvbsdjjg.taelxg@gmail.com,,0.31,4.05,0.07068940980026574,0,0
+,Aeoklnyk Zgmaj,,,"django, flask, machine learning, sql",B.Tech,4,5,5,3,2,aeoklnyk.zgmaj@gmail.com,,0.62,3.8,1.1611159696152435,1,1
+,Ddmzaxfq Cidct,,,"data analysis, git, html, java, machine learning, react",B.Tech,4,5,4,2,2,ddmzaxfq.cidct@gmail.com,,0.17,3.4,-0.4217612946323049,1,1
+,Xpejjgc Mqcsulgo,,,"c++, excel",MCA,5,5,5,2,3,xpejjgc.mqcsulgo@gmail.com,,0.28,3.7,-0.03483574114957074,0,0
+,Jxvfyodq Wzcmv,,,"excel, html, java, machine learning, python, sql",MCA,5,4,2,2,1,jxvfyodq.wzcmv@gmail.com,,0.87,3.1,2.0404922275305486,1,1
+,Mpulau Kzzpuhp,,,"c++, flask, html, javascript, machine learning, python, sql",BCA,2,3,4,3,3,mpulau.kzzpuhp@gmail.com,,0.33,2.3500000000000005,0.14103951043349017,1,1
+,Kogltsta Sfdvgw,,,"data analysis, html, machine learning, react, sql",B.Sc,3,4,3,2,2,kogltsta.sfdvgw@gmail.com,,0.16,2.65,-0.4569363449489171,0,0
+,Gtcnnv Teyuin,,,"c++, flask, java, javascript, power bi, sql",B.Sc,5,5,2,4,1,gtcnnv.teyuin@gmail.com,,0.09,3.8000000000000003,-0.7031616971652025,0,0
+,Qchabji Pbxsly,,,"java, power bi",Diploma,5,2,5,5,3,qchabji.pbxsly@gmail.com,,0.22,3.4000000000000004,-0.24588604304924397,0,0
+,Pyhfo Fgrbx,,,"c++, excel, javascript, machine learning, power bi",BCA,5,4,2,2,1,pyhfo.fgrbx@gmail.com,,0.21,3.1,-0.2810610933658562,1,1
+,Sjmsvpm Atvyschh,,,"flask, html, java, power bi, python, sql",B.E,3,5,2,3,2,sjmsvpm.atvyschh@gmail.com,,0.14,2.95,-0.5272864455821414,0,0
+,Efmtimg Tnnwrpec,,,"html, machine learning, python",Diploma,5,2,3,3,3,efmtimg.tnnwrpec@gmail.com,,0.11,2.6000000000000005,-0.6328115965319782,1,1
+,Wwstxszu Eapyfp,,,"c++, django, git, html, javascript, python",B.E,4,3,5,4,3,wwstxszu.eapyfp@gmail.com,,0.33,3.25,0.14103951043349017,1,1
+,Stpgd Sjrixr,,,"excel, html, python, react, sql",B.Sc,3,4,2,2,2,stpgd.sjrixr@gmail.com,,0.25,2.45,-0.1403608920994074,0,0
+,Igbhnnyn Vgnshnkf,,,"c++, excel, git, machine learning, power bi, python",MCA,3,4,4,2,1,igbhnnyn.vgnshnkf@gmail.com,,0.44,3.0,0.5279650639162242,1,1
+,Cxqow Zpezy,,,"css, python",B.Sc,4,5,5,5,1,cxqow.zpezy@gmail.com,,0.27,4.35,-0.07001079146618296,1,1
+,Jhdntus Mskfzu,,,"excel, flask, git, html, power bi, python, react",B.Tech,2,4,2,4,3,jhdntus.mskfzu@gmail.com,,0.04,2.45,-0.8790369487482634,0,0
+,Owkawyyk Yvdwx,,,"flask, java, machine learning, power bi, react",B.Tech,4,2,3,2,3,owkawyyk.yvdwx@gmail.com,,0.42,2.1500000000000004,0.4576149632829998,0,0
+,Yfiijhrc Bkboveo,,,"html, java, python, react",B.Sc,4,3,3,5,3,yfiijhrc.bkboveo@gmail.com,,0.3,3.05,0.03551435948365351,1,1
+,Rybuponx Vkifjvd,,,"css, flask",B.Sc,4,2,4,4,1,rybuponx.vkifjvd@gmail.com,,0.36,3.0500000000000003,0.24656466138332664,0,0
+,Fhpdc Katxxwbm,,,"django, react",Diploma,5,3,5,4,1,fhpdc.katxxwbm@gmail.com,,0.07,3.8000000000000003,-0.7735117977984268,0,0
+,Dozqy Qipvltgn,,,"c++, data analysis, django, java, machine learning, power bi",Diploma,3,5,3,5,2,dozqy.qipvltgn@gmail.com,,0.64,3.5500000000000003,1.231466070248468,1,1
+,Upzjm Zjsen,,,"css, data analysis, git, machine learning, python, react",Diploma,4,3,3,5,4,upzjm.zjsen@gmail.com,,1.05,2.9,2.673643133229568,1,1
+,Giuvo Zsnfoy,,,"css, javascript",MCA,2,3,5,5,2,giuvo.zsnfoy@gmail.com,,0.03,3.1,-0.9142119990648755,0,0
+,Updcn Oxflv,,,"css, data analysis, java, javascript, machine learning, power bi, python, sql",Diploma,4,4,2,4,1,updcn.oxflv@gmail.com,,0.04,3.2500000000000004,-0.8790369487482634,1,1
+,Sogvb Nyeuif,,,"django, flask, java, python, sql",MCA,4,2,3,2,3,sogvb.nyeuif@gmail.com,,0.48,2.1500000000000004,0.6686652651826729,0,0
+,Excht Qfipwxik,,,"css, django, flask, git, python, react",Diploma,2,3,4,2,3,excht.qfipwxik@gmail.com,,0.0,2.1500000000000004,-1.019737150014712,0,0
+,Suwffre Cjtladt,,,"javascript, power bi",BCA,5,2,2,3,1,suwffre.cjtladt@gmail.com,,0.22,2.7,-0.24588604304924397,0,0
+,Pnndlap Hqbzgmem,,,"data analysis, django, excel, power bi, python, react",B.Tech,2,4,4,4,3,pnndlap.hqbzgmem@gmail.com,,0.18,2.8499999999999996,-0.3865862443156928,0,0
+,Fnncc Dmpnbsf,,,"data analysis, git, machine learning, python, react",Diploma,2,4,4,5,2,fnncc.dmpnbsf@gmail.com,,0.39,3.2,0.35208981233316333,1,1
+,Vxlknrc Bpbriak,,,"data analysis, flask, sql",B.E,3,3,4,2,3,vxlknrc.bpbriak@gmail.com,,0.47,2.4000000000000004,0.6334902148660607,0,0
+,Dloodiy Pzpxwumb,,,"css, data analysis, git, java, power bi",BCA,5,4,3,2,2,dloodiy.pzpxwumb@gmail.com,,0.42,3.1500000000000004,0.4576149632829998,0,0
+,Elfxn Yxnwxb,,,"excel, power bi, python",MCA,3,3,5,3,2,elfxn.yxnwxb@gmail.com,,0.96,2.95,2.357067680380058,0,0
+,Wucubg Tdgnv,,,"flask, javascript",Diploma,2,5,5,4,4,wucubg.tdgnv@gmail.com,,0.43,3.1999999999999997,0.492790013599612,0,0
+,Htepxcd Lqzwkji,,,"c++, css, excel, git, java, python",Diploma,4,5,2,3,2,htepxcd.lqzwkji@gmail.com,,0.13,3.2,-0.5624614958987537,1,1
+,Dbjhbwzi Ujxylbl,,,"css, excel, git, machine learning, power bi, sql",Diploma,3,4,5,5,2,dbjhbwzi.ujxylbl@gmail.com,,0.54,3.6500000000000004,0.8797155670823462,1,1
+,Xptrwb Jjoyaoh,,,"django, flask, javascript, power bi",MCA,3,5,4,2,4,xptrwb.jjoyaoh@gmail.com,,0.08,2.8499999999999996,-0.7383367474818145,0,0
+,Mqbesdo Tnunns,,,"c++, django, flask, java, machine learning, power bi, python, react",B.Tech,3,4,4,3,4,mqbesdo.tnunns@gmail.com,,0.58,2.75,1.0204157683487947,1,1
+,Bnqhp Zofqjva,,,"c++, django, excel, html, javascript, python",B.Sc,3,3,5,5,2,bnqhp.zofqjva@gmail.com,,0.19,3.35,-0.35141119399908055,1,0
+,Lktzsj Zvuxfmdo,,,"flask, git, html, machine learning, python, sql",B.Sc,3,4,4,5,1,lktzsj.zvuxfmdo@gmail.com,,0.95,3.6,2.321892630063446,1,1
+,Iegqxr Hjffaqvo,,,"data analysis, java, javascript, machine learning, power bi, react",B.Sc,3,2,4,3,3,iegqxr.hjffaqvo@gmail.com,,0.35,2.3000000000000007,0.21138961106671442,0,1
+,Xqdqhz Ufapb,,,"data analysis, machine learning, power bi, python",Diploma,3,4,2,3,2,xqdqhz.ufapb@gmail.com,,0.01,2.6500000000000004,-0.9845620996980999,1,1
+,Nedsct Uqqvpmsn,,,"css, data analysis, django, java, python, react",B.Tech,4,2,3,5,2,nedsct.uqqvpmsn@gmail.com,,0.09,2.9000000000000004,-0.7031616971652025,0,0
+,Vzwghzdh Xisjf,,,"data analysis, machine learning, python, react, sql",B.E,3,2,3,3,2,vzwghzdh.xisjf@gmail.com,,0.35,2.2500000000000004,0.21138961106671442,1,1
+,Ggjouv Vcmsyalm,,,"data analysis, excel, javascript, sql",Diploma,3,4,4,2,1,ggjouv.vcmsyalm@gmail.com,,0.46,3.0,0.5983151645494487,0,0
+,Uysrzsdi Gwybiyv,,,"css, excel, java, machine learning, power bi",BCA,2,2,2,2,1,uysrzsdi.gwybiyv@gmail.com,,0.09,1.75,-0.7031616971652025,0,0
+,Npzfmo Udohnky,,,"data analysis, power bi, python, sql",MCA,4,5,3,2,4,npzfmo.udohnky@gmail.com,,0.97,2.9,2.3922427306966703,0,0
+,Auvifxg Xhtacppm,,,"css, power bi, sql",B.Sc,2,2,2,2,2,auvifxg.xhtacppm@gmail.com,,0.28,1.5999999999999999,-0.03483574114957074,0,0
+,Wmxona Kkazt,,,"java, sql",B.E,3,5,4,4,3,wmxona.kkazt@gmail.com,,0.7,3.3999999999999995,1.442516372148141,0,0
+,Vjhah Monblik,,,"data analysis, django, excel, flask, machine learning, power bi, react",BCA,5,4,4,4,4,vjhah.monblik@gmail.com,,0.43,3.4499999999999997,0.492790013599612,1,1
+,Drmziy Agnktovf,,,"data analysis, django, excel, machine learning, python, sql",B.E,4,5,4,3,1,drmziy.agnktovf@gmail.com,,0.71,3.75,1.4776914224647533,1,1
+,Lujclljy Srslq,,,"c++, css, django, power bi",BCA,4,3,2,4,2,lujclljy.srslq@gmail.com,,0.37,2.8,0.2817397116999389,0,0
+,Ppbpgnpp Pfxcauzs,,,"excel, git, javascript, python",B.E,5,2,3,5,4,ppbpgnpp.pfxcauzs@gmail.com,,0.07,2.85,-0.7735117977984268,0,0
+,Dvxiyx Iblldh,,,"css, flask, python",MCA,5,2,5,4,4,dvxiyx.iblldh@gmail.com,,0.49,3.0500000000000003,0.7038403154992852,1,1
+,Msjtjxn Jkqeneb,,,"git, javascript, machine learning",B.Sc,4,2,2,3,1,msjtjxn.jkqeneb@gmail.com,,0.06,2.45,-0.808686848115039,0,0
+,Cgiefjfw Mfceyit,,,"css, data analysis, flask, java, machine learning, sql",B.Tech,3,4,2,4,1,cgiefjfw.mfceyit@gmail.com,,0.39,3.0000000000000004,0.35208981233316333,1,1
+,Uxlvwbh Akguze,,,"data analysis, flask, html, machine learning, python",Diploma,4,3,5,4,3,uxlvwbh.akguze@gmail.com,,0.83,3.25,1.8997920262640995,1,1
+,Zkpcn Kliulqsc,,,"c++, excel, html, java, python, react",BCA,5,2,4,2,4,zkpcn.kliulqsc@gmail.com,,0.04,2.45,-0.8790369487482634,0,0
+,Ilmrp Vjbyx,,,"css, django, python, react",B.E,3,5,4,5,1,ilmrp.vjbyx@gmail.com,,0.55,3.9,0.9148906173989585,1,1
+,Adrfu Zgsquaz,,,"flask, machine learning, python",B.Sc,3,4,2,4,3,adrfu.zgsquaz@gmail.com,,0.05,2.7,-0.8438618984316513,1,1
+,Nzdajmz Zohqatk,,,"css, flask, machine learning",MCA,3,5,2,3,3,nzdajmz.zohqatk@gmail.com,,0.25,2.8,-0.1403608920994074,0,0
+,Npbsenrb Hkxrfzmh,,,"flask, javascript",MCA,4,2,5,5,2,npbsenrb.hkxrfzmh@gmail.com,,0.58,3.3000000000000003,1.0204157683487947,0,0
+,Iatqge Xlmiw,,,"c++, data analysis, django, git, power bi, python",B.E,3,2,5,5,3,iatqge.xlmiw@gmail.com,,0.06,2.9000000000000004,-0.808686848115039,0,0
+,Fixzdh Wzkjihi,,,"data analysis, machine learning, power bi, python, react",B.Sc,2,3,3,2,2,fixzdh.wzkjihi@gmail.com,,0.35,2.1,0.21138961106671442,1,1
+,Comcfqdd Fcfuoqhs,,,"javascript, machine learning, react",B.E,5,4,4,3,1,comcfqdd.fcfuoqhs@gmail.com,,0.24,3.7,-0.17553594241601964,1,1
+,Avmpf Hrhkh,,,"c++, java, javascript, python",B.Sc,2,4,4,2,1,avmpf.hrhkh@gmail.com,,0.28,2.75,-0.03483574114957074,0,0
+,Sekme Wxfak,,,"flask, machine learning",BCA,3,5,5,4,2,sekme.wxfak@gmail.com,,0.4,3.75,0.38726486264977555,1,1
+,Fthalb Qsaqqsdg,,,"django, java",MCA,5,4,4,4,2,fthalb.qsaqqsdg@gmail.com,,0.45,3.75,0.5631401142328365,0,0
+,Nvynh Vybjvv,,,"machine learning, react",B.E,5,5,2,4,1,nvynh.vybjvv@gmail.com,,0.18,3.8000000000000003,-0.3865862443156928,1,1
+,Jwfuxso Xygrg,,,"excel, machine learning, python",B.E,5,3,2,3,1,jwfuxso.xygrg@gmail.com,,0.08,3.0,-0.7383367474818145,1,1
+,Iiaggtse Eulepgs,,,"css, flask, javascript, python, react",Diploma,2,5,3,4,1,iiaggtse.eulepgs@gmail.com,,0.49,3.2500000000000004,0.7038403154992852,1,1
+,Krttlta Ivdnvd,,,"machine learning, power bi, python",B.E,3,4,3,3,4,krttlta.ivdnvd@gmail.com,,0.37,2.55,0.2817397116999389,1,1
+,Cazoiapj Sayul,,,"c++, javascript, power bi",MCA,3,2,3,3,3,cazoiapj.sayul@gmail.com,,0.26,2.1000000000000005,-0.10518584178279518,0,0
+,Zzmpgrv Zonpcxet,,,"data analysis, react",BCA,4,5,3,5,2,zzmpgrv.zonpcxet@gmail.com,,0.58,3.8,1.0204157683487947,0,0
+,Fnqhlhrh Jhfdbdg,,,"c++, excel, html, machine learning, python, react",B.E,2,4,5,5,3,fnqhlhrh.jhfdbdg@gmail.com,,0.57,3.25,0.9852407180321825,1,1
+,Yrxttpzu Wfliwa,,,"django, git, html, power bi, python, sql",B.Sc,5,4,2,5,2,yrxttpzu.wfliwa@gmail.com,,0.98,3.5500000000000003,2.4274177810132826,1,1
+,Bxmjiwdx Asqugyl,,,"data analysis, javascript, machine learning, python, react",B.Tech,2,2,3,2,1,bxmjiwdx.asqugyl@gmail.com,,0.6,1.9500000000000002,1.0907658689820192,1,1
+,Nlnbg Lhhiiw,,,"c++, django, excel, git, java, machine learning, power bi",B.Sc,3,5,5,5,1,nlnbg.lhhiiw@gmail.com,,0.49,4.1,0.7038403154992852,1,1
+,Wbbxpek Vcegnd,,,"git, machine learning",BCA,2,3,5,3,3,wbbxpek.vcegnd@gmail.com,,0.71,2.55,1.4776914224647533,0,0
+,Hhhmz Wcrewcba,,,"css, django, power bi, react, sql",BCA,3,5,5,5,4,hhhmz.wcrewcba@gmail.com,,0.27,3.65,-0.07001079146618296,0,0
+,Ljmivahz Nvyzrp,,,"c++, data analysis, excel, machine learning, react",BCA,3,3,3,3,2,ljmivahz.nvyzrp@gmail.com,,0.53,2.5500000000000003,0.844540516765734,0,0
+,Bhanx Pkvgqgeb,,,"flask, javascript, python",BCA,5,3,3,4,3,bhanx.pkvgqgeb@gmail.com,,1.14,3.0999999999999996,2.9902185860790773,1,1
+,Zptqk Jdmtc,,,"css, django, flask, machine learning, react",Diploma,4,2,4,2,2,zptqk.jdmtc@gmail.com,,0.17,2.5000000000000004,-0.4217612946323049,0,0
+,Oxzkb Aqggxdg,,,"c++, css, django, flask, machine learning, power bi, python",B.E,3,3,3,2,4,oxzkb.aqggxdg@gmail.com,,0.33,2.05,0.14103951043349017,1,1
+,Ijbgqon Jybxc,,,"data analysis, flask, machine learning, power bi",BCA,2,2,4,2,3,ijbgqon.jybxc@gmail.com,,0.5,1.8500000000000003,0.7390153658158973,0,0
+,Aqlobz Fevifei,,,"django, html, python, sql",B.Sc,2,3,4,3,2,aqlobz.fevifei@gmail.com,,0.06,2.5000000000000004,-0.808686848115039,0,0
+,Byurxlo Yfdwn,,,"css, excel, flask, html, python, sql",MCA,2,5,4,4,4,byurxlo.yfdwn@gmail.com,,0.84,2.9999999999999996,1.9349670765807117,0,0
+,Sbony Rdjihve,,,"c++, python",MCA,3,5,4,2,3,sbony.rdjihve@gmail.com,,0.11,3.0,-0.6328115965319782,0,0
+,Nwopxcxu Pltefv,,,"django, flask, html, java, machine learning, python",BCA,2,2,3,5,4,nwopxcxu.pltefv@gmail.com,,0.28,2.1,-0.03483574114957074,1,1
+,Ndskz Dypqgxiq,,,"java, javascript, power bi",BCA,3,3,4,4,3,ndskz.dypqgxiq@gmail.com,,0.15,2.8,-0.49211139526552933,0,0
+,Rmfvksy Ufauad,,,"c++, excel, git, machine learning, react",MCA,3,5,5,5,2,rmfvksy.ufauad@gmail.com,,0.24,3.95,-0.17553594241601964,1,1
+,Jvrjtuu Ajmej,,,"data analysis, excel, git, java, power bi, react",Diploma,4,4,4,4,3,jvrjtuu.ajmej@gmail.com,,0.04,3.3499999999999996,-0.8790369487482634,0,0
+,Yjqxtb Fxqjpkzx,,,"c++, css, html, java, machine learning, python, react",BCA,3,3,2,3,4,yjqxtb.fxqjpkzx@gmail.com,,0.29,2.05,0.00033930916704128736,1,1
+,Akocevlo Qadrf,,,"c++, django, html, java, python",B.Sc,2,5,2,4,2,akocevlo.qadrf@gmail.com,,0.0,2.9000000000000004,-1.019737150014712,0,0
+,Tudhr Mrsdqn,,,"excel, java, python",MCA,2,2,2,5,4,tudhr.mrsdqn@gmail.com,,0.31,1.9,0.07068940980026574,0,0
+,Lxdoyp Okwhz,,,"html, machine learning",B.E,4,5,5,2,1,lxdoyp.okwhz@gmail.com,,0.06,3.75,-0.808686848115039,1,1
+,Vcpqlgi Ddpahj,,,"c++, css, data analysis, javascript",MCA,2,2,2,3,3,vcpqlgi.ddpahj@gmail.com,,0.01,1.6500000000000001,-0.9845620996980999,0,0
+,Afayepuw Fibhdn,,,"excel, html, machine learning, sql",BCA,5,3,3,4,3,afayepuw.fibhdn@gmail.com,,0.9,3.0999999999999996,2.146017378480385,1,1
+,Qbjglqhz Rzyhq,,,"django, flask, html, python, sql",B.Sc,2,2,3,2,1,qbjglqhz.rzyhq@gmail.com,,0.02,1.9500000000000002,-0.9493870493814878,0,0
+,Iwuwqbn Xrypvvs,,,"c++, css, flask, python, sql",B.E,5,4,5,2,4,iwuwqbn.xrypvvs@gmail.com,,0.92,3.25,2.2163674791136097,1,1
+,Gdlit Snpim,,,"css, git, html, machine learning, power bi, python",B.Sc,3,2,5,3,2,gdlit.snpim@gmail.com,,0.83,2.6500000000000004,1.8997920262640995,1,1
+,Rbowckdn Mdkfgiy,,,"css, django, html, machine learning, python",Diploma,5,3,5,2,1,rbowckdn.mdkfgiy@gmail.com,,0.74,3.4,1.58321657341459,1,1
+,Qvpls Nfdfzx,,,"css, excel, git, javascript, machine learning, react, sql",Diploma,4,2,5,3,2,qvpls.nfdfzx@gmail.com,,0.5,2.9000000000000004,0.7390153658158973,0,1
+,Yufpiagz Rgwiuw,,,"c++, git, html, power bi, python, sql",B.Sc,5,2,3,4,1,yufpiagz.rgwiuw@gmail.com,,0.24,3.1,-0.17553594241601964,1,1
+,Maktc Eowxlnau,,,"data analysis, django, excel, power bi, sql",Diploma,5,3,5,4,1,maktc.eowxlnau@gmail.com,,0.39,3.8000000000000003,0.35208981233316333,0,0
+,Zavsasbd Ygsclcp,,,"django, html",Diploma,2,5,4,4,1,zavsasbd.ygsclcp@gmail.com,,0.21,3.4499999999999997,-0.2810610933658562,0,0
+,Uoiswid Lianehqq,,,"c++, css, git, html, java, machine learning, python",B.E,3,2,2,5,2,uoiswid.lianehqq@gmail.com,,0.28,2.45,-0.03483574114957074,1,1
+,Qtbdz Ruthqr,,,"django, python",B.Sc,3,2,3,4,3,qtbdz.ruthqr@gmail.com,,0.87,2.3,2.0404922275305486,0,0
+,Ewnph Aqmeyew,,,"django, flask, html, machine learning, power bi, sql",Diploma,2,4,5,3,2,ewnph.aqmeyew@gmail.com,,0.3,3.0000000000000004,0.03551435948365351,1,1
+,Hpjeq Tkmtfs,,,"java, power bi, python, react",BCA,4,4,3,5,4,hpjeq.tkmtfs@gmail.com,,0.48,3.2,0.6686652651826729,1,1
+,Jgouy Qbcxdokb,,,"power bi, python, react",B.Sc,5,4,3,5,4,jgouy.qbcxdokb@gmail.com,,0.13,3.4500000000000006,-0.5624614958987537,1,1
+,Afdvboz Jwpody,,,"css, flask, git, javascript, machine learning, react",Diploma,4,2,2,4,2,afdvboz.jwpody@gmail.com,,0.2,2.5,-0.31623614368246833,0,0
+,Ryluj Nkemxq,,,"c++, data analysis, power bi, python, react, sql",MCA,4,2,5,2,4,ryluj.nkemxq@gmail.com,,0.29,2.4,0.00033930916704128736,0,0

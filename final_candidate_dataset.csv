@@ -1,44 +1,245 @@
-Candidate_ID,Name,Age,Gender,Skills,Experience,Education,Openness,Conscientiousness,Extroversion,Agreeableness,Neuroticism,Email,Mobile,Unnamed: 14,Unnamed: 15,Skill_Competency,Personality_Score,Years_Experience_Education,Skill_Education_Interaction,Normalized_Personality_Score,Hired
-1,John Doe,28,Male,32,3,0,4.0,5.0,3.0,4.0,2.0,JohnDoe@gmail.com,9876543210,,,32,14.0,3,0,1.0612901254923692,0
-2,Jane Smith,30,Male,15,2,7,5.0,3.0,4.0,4.0,3.0,abisara2003@gmail.com,9012345678,,,15,13.0,9,105,0.6651488460117104,1
-3,David Johnson,29,Male,8,4,1,3.0,4.0,3.0,3.0,2.0,davidjohnson@gmail.com,8765432109,,,8,11.0,5,8,-0.12713371294960712,0
-4,Sarah Lee,32,Female,18,5,3,4.0,5.0,2.0,5.0,2.0,sarahlee@gmail.com,8901234567,,,18,14.0,8,54,1.0612901254923692,0
-5,Mike Brown,31,Male,34,3,0,4.0,3.0,5.0,4.0,3.0,mikebrown@gmail.com,7654321098,,,34,13.0,3,0,0.6651488460117104,0
-6,Emily Davis,35,Female,30,2,4,5.0,4.0,3.0,4.0,4.0,emilydavis@gmail.com,8192035467,,,30,12.0,6,120,0.2690075665310516,0
-7,Chris Wilson,27,Male,4,3,0,3.0,4.0,2.0,3.0,2.0,chriswilson@gmail.com,9357248610,,,4,10.0,3,0,-0.5232749924302659,0
-8,Olivia White,33,Female,23,4,6,4.0,5.0,3.0,5.0,3.0,subramanian160104@gmail.com,6748901235,,,23,14.0,10,138,1.0612901254923692,1
-9,William Hall,26,Male,24,5,1,3.0,3.0,2.0,3.0,4.0,williamhall@gmail.com,7254381096,,,24,7.0,6,24,-1.7116988308722423,0
-10,Linda Taylor,31,Female,3,2,2,5.0,4.0,4.0,4.0,3.0,lindataylor@gmail.com,8945671203,, ,3,14.0,4,6,1.0612901254923692,0
-11,Rahul,26,Male,37,2,0,3.0,4.0,2.0,4.0,3.0,rahul@gmail.com,6309271845,,,37,10.0,2,0,-0.5232749924302659,0
-12,John Smith,29,Male,14,3,0,4.0,3.0,4.0,3.0,2.0,johnsmith@gmail.com,5423981760,,,14,12.0,3,0,0.2690075665310516,0
-13,Emily Johnson,32,Female,9,4,4,3.0,4.0,3.0,5.0,3.0,emilyjohnson@gmail.com,2075846913,,,9,12.0,8,36,0.2690075665310516,0
-14,Alex Williams,28,Male,19,2,3,5.0,5.0,2.0,4.0,2.0,alexwilliams@gmail.com,4582167039,,,19,14.0,5,57,1.0612901254923692,0
-15,Sarah Davis,30,Female,35,5,7,4.0,3.0,5.0,4.0,3.0,zkhaleef27@gmail.com,3568019427,,,35,13.0,12,245,0.6651488460117104,1
-16,Michael Brown,27,Male,11,3,0,3.0,4.0,2.0,3.0,2.0,michaelbrown@gmail.com,9132740568,,,11,10.0,3,0,-0.5232749924302659,0
-17,Olivia Miller,35,Female,31,4,6,4.0,5.0,3.0,5.0,3.0,oliviamiller@gmail.com,6809154327,,,31,14.0,10,186,1.0612901254923692,1
-18,Ethan Wilson,26,Male,1,5,1,3.0,3.0,2.0,3.0,4.0,ethanwilson@gmail.com,3948571260,,,1,7.0,6,1,-1.7116988308722423,0
-19,Chloe Anderson,31,Male,29,2,2,5.0,4.0,4.0,4.0,3.0,chloeanderson@gmail.com,1267938450,,,29,14.0,4,58,1.0612901254923692,0
-20,Daniel Taylor,29,Male,13,3,0,3.0,4.0,2.0,4.0,3.0,danieltaylor@gmail.com,2371894506,,,13,10.0,3,0,-0.5232749924302659,0
-21,Ava Martinez,33,Female,22,4,5,3.0,4.0,2.0,4.0,3.0,avamartinez@gmail.com,5701384926,,,22,10.0,9,110,-0.5232749924302659,0
-22,Liam Johnson,28,Male,26,2,4,5.0,4.0,3.0,4.0,4.0,liamjohnson@gmail.com,4085763129,,,26,12.0,6,104,0.2690075665310516,0
-23,Sophia Turner,30,Female,5,5,0,4.0,5.0,2.0,5.0,2.0,sophiaturner@gmail.com,1923486075,,,5,14.0,5,0,1.0612901254923692,0
-24,Noah Harris,31,Male,34,3,0,4.0,3.0,5.0,4.0,3.0,noahharris@gmail.com,6850972134,,,34,13.0,3,0,0.6651488460117104,0
-25,Isabella White,35,Female,28,2,6,5.0,4.0,3.0,4.0,4.0,isabellawhite@gmail.com,3592648701,,,28,12.0,8,168,0.2690075665310516,0
-26,Mason Robinson,27,Male,10,3,3,3.0,4.0,2.0,3.0,2.0,masonrobinson@gmail.com,8629304715,,,10,10.0,6,30,-0.5232749924302659,0
-27,Mia Thompson,33,Female,25,4,1,4.0,5.0,3.0,5.0,3.0,miathompson@gmail.com,7412058369,,,25,14.0,5,25,1.0612901254923692,0
-28,Aiden Clark,26,Male,2,5,2,3.0,3.0,2.0,3.0,4.0,aidenclark@gmail.com,5046782391,,,2,7.0,7,4,-1.7116988308722423,0
-29,Harper Lewis,31,Male,21,2,5,5.0,4.0,4.0,4.0,3.0,71762133027@cit.edu.in,3196845027,,,21,14.0,7,105,1.0612901254923692,1
-30,Carter Hall,29,Male,36,3,0,3.0,4.0,2.0,4.0,3.0,carterhall@gmail.com,8237459610,,,36,10.0,3,0,-0.5232749924302659,0
-31,Grace Adams,32,Female,12,4,0,3.0,4.0,2.0,4.0,3.0,graceadams@gmail.com,9678034152,,,12,10.0,4,0,-0.5232749924302659,0
-32,Jackson Moore,28,Male,31,2,6,3.0,4.0,2.0,4.0,3.0,jacksonmoore@gmail.com,1542093786,,,31,10.0,8,186,-0.5232749924302659,0
-33,Lily Walker,35,Female,1,5,3,4.0,5.0,2.0,5.0,2.0,lilywalker@gmail.com,6057812943,,,1,14.0,8,3,1.0612901254923692,0
-34,Wyatt Brooks,26,Male,30,3,4,4.0,3.0,4.0,3.0,2.0,wyattbrooks@gmail.com,4926138570,,,30,12.0,7,120,0.2690075665310516,0
-35,Zoey Foster,33,Male,6,4,5,5.0,4.0,3.0,4.0,4.0,zoeyfoster@gmail.com,7183956240,,,6,12.0,9,30,0.2690075665310516,0
-36,Owen Cooper,31,Male,20,2,1,3.0,3.0,2.0,3.0,4.0,owencooper@gmail.com,3865047291,,,20,7.0,3,20,-1.7116988308722423,0
-37,Ava Edwards,29,Female,33,3,2,3.0,4.0,2.0,4.0,3.0,avaedwards@gmail.com,9493728056,,,33,10.0,5,66,-0.5232749924302659,0
-38,Oliver Bryant,32,Male,0,4,0,3.0,4.0,2.0,4.0,3.0,oliverbryant@gmail.com,7345091876,,,0,10.0,4,0,-0.5232749924302659,0
-39,Emma Hayes,28,Female,17,5,0,3.0,4.0,2.0,4.0,3.0,emmahayes@gmail.com,8761203459,,,17,10.0,5,0,-0.5232749924302659,0
-40,Benjamin Ross,30,Male,27,2,4,5.0,4.0,3.0,4.0,4.0,benjaminross@gmail.com,8403928176,,,27,12.0,6,108,0.2690075665310516,0
-41,Amelia King,27,Female,7,3,0,4.0,5.0,3.0,5.0,2.0,ameliaking@gmail.com,9403928176,,,7,15.0,3,0,1.457431404973028,0
-45,Khaleef,19,Male,16,1,9,2.0,2.0,2.0,2.0,2.0,71762133044@cit.edu.in,8072744511,,,16,6.0,10,144,-2.107840110352901,0
-46,Abith,35,Male,38,7,8,0.8,2.0,1.2,1.4,0.6,abisara@gmail.com,7893214591,,,38,4.800000000000001,15,304,-2.583209645729691,0
+Candidate_ID,Name,Age,Gender,Skills,Experience,Education,Openness,Conscientiousness,Extroversion,Agreeableness,Neuroticism,Email,Mobile,Unnamed: 14,Unnamed: 15,Personality_Score,Experience_Norm,Auto_Hired_Label,Hired_Predicted
+1.0,John Doe,28.0,Male,"python, java, sql",3.0,Bachelor's in Computer Science,4.0,5.0,3.0,4.0,2.0,JohnDoe@gmail.com,9876543210.0,,,3.6000000000000005,0.2899610229139742,1,1
+2.0,Jane Smith,30.0,Male,"c++, javascript, html/css",2.0,Master's in Software Engineering,5.0,3.0,4.0,4.0,3.0,abisara2003@gmail.com,9012345678.0,,,3.3,-0.32153845496856415,0,0
+3.0,David Johnson,29.0,Male,"java, c#, sql",4.0,Bachelor's in Information Systems,3.0,4.0,3.0,3.0,2.0,davidjohnson@gmail.com,8765432109.0,,,2.85,0.9014605007965124,1,1
+4.0,Sarah Lee,32.0,Female,"python, r, data analysis",5.0,Bachelor's in Statistics,4.0,5.0,2.0,5.0,2.0,sarahlee@gmail.com,8901234567.0,,,3.6,1.5129599786790509,1,1
+5.0,Mike Brown,31.0,Male,"javascript, react, node.js",3.0,Bachelor's in Computer Science,4.0,3.0,5.0,4.0,3.0,mikebrown@gmail.com,7654321098.0,,,3.25,0.2899610229139742,1,1
+6.0,Emily Davis,35.0,Female,"php, html/css, ux design",2.0,Bachelor's in Web Design,5.0,4.0,3.0,4.0,4.0,emilydavis@gmail.com,8192035467.0,,,3.2500000000000004,-0.32153845496856415,0,0
+7.0,Chris Wilson,27.0,Male,"c++, c#, data structures",3.0,Bachelor's in Computer Science,3.0,4.0,2.0,3.0,2.0,chriswilson@gmail.com,9357248610.0,,,2.6500000000000004,0.2899610229139742,1,1
+8.0,Olivia White,33.0,Female,"python, data science, machine learning",4.0,Master's in Data Science,4.0,5.0,3.0,5.0,3.0,subramanian160104@gmail.com,6748901235.0,,,3.6499999999999995,0.9014605007965124,1,1
+9.0,William Hall,26.0,Male,"java, sql, database administration",5.0,Bachelor's in Information Systems,3.0,3.0,2.0,3.0,4.0,williamhall@gmail.com,7254381096.0,,,2.05,1.5129599786790509,0,0
+10.0,Linda Taylor,31.0,Female,"javascript, react, angular",2.0,Bachelor's in Software Engineering,5.0,4.0,4.0,4.0,3.0,lindataylor@gmail.com,8945671203.0,, ,3.5999999999999996,-0.32153845496856415,0,0
+11.0,Rahul,26.0,Male,"python, javascript, sql",2.0,Bachelor's in Computer Science,3.0,4.0,2.0,4.0,3.0,rahul@gmail.com,6309271845.0,,,2.7,-0.32153845496856415,1,1
+12.0,John Smith,29.0,Male,"java, c++, html",3.0,Bachelor's in Computer Science,4.0,3.0,4.0,3.0,2.0,johnsmith@gmail.com,5423981760.0,,,3.0000000000000004,0.2899610229139742,1,1
+13.0,Emily Johnson,32.0,Female,"c#, php, ux design",4.0,Bachelor's in Web Design,3.0,4.0,3.0,5.0,3.0,emilyjohnson@gmail.com,2075846913.0,,,3.0999999999999996,0.9014605007965124,1,1
+14.0,Alex Williams,28.0,Male,"python, data analysis, react",2.0,Bachelor's in Statistics,5.0,5.0,2.0,4.0,2.0,alexwilliams@gmail.com,4582167039.0,,,3.6500000000000004,-0.32153845496856415,1,1
+15.0,Sarah Davis,30.0,Female,"javascript, node.js, sql",5.0,Master's in Software Engineering,4.0,3.0,5.0,4.0,3.0,zkhaleef27@gmail.com,3568019427.0,,,3.25,1.5129599786790509,1,1
+16.0,Michael Brown,27.0,Male,"c++, data structures, html/css",3.0,Bachelor's in Computer Science,3.0,4.0,2.0,3.0,2.0,michaelbrown@gmail.com,9132740568.0,,,2.6500000000000004,0.2899610229139742,1,1
+17.0,Olivia Miller,35.0,Female,"java, python, machine learning",4.0,Master's in Data Science,4.0,5.0,3.0,5.0,3.0,oliviamiller@gmail.com,6809154327.0,,,3.6499999999999995,0.9014605007965124,1,1
+18.0,Ethan Wilson,26.0,Male,"javascript, angular, data analysis",5.0,Bachelor's in Information Systems,3.0,3.0,2.0,3.0,4.0,ethanwilson@gmail.com,3948571260.0,,,2.05,1.5129599786790509,0,0
+19.0,Chloe Anderson,31.0,Male,"php, html/css, react",2.0,Bachelor's in Software Engineering,5.0,4.0,4.0,4.0,3.0,chloeanderson@gmail.com,1267938450.0,,,3.5999999999999996,-0.32153845496856415,0,0
+20.0,Daniel Taylor,29.0,Male,"c++, sql, database administration",3.0,Bachelor's in Computer Science,3.0,4.0,2.0,4.0,3.0,danieltaylor@gmail.com,2371894506.0,,,2.7,0.2899610229139742,1,1
+21.0,Ava Martinez,33.0,Female,"python, javascript, data science",4.0,Master's in Computer Science,3.0,4.0,2.0,4.0,3.0,avamartinez@gmail.com,5701384926.0,,,2.7,0.9014605007965124,1,1
+22.0,Liam Johnson,28.0,Male,"java, html/css, ux design",2.0,Bachelor's in Web Design,5.0,4.0,3.0,4.0,4.0,liamjohnson@gmail.com,4085763129.0,,,3.2500000000000004,-0.32153845496856415,0,0
+23.0,Sophia Turner,30.0,Female,"c#, data structures, data analysis",5.0,Bachelor's in Computer Science,4.0,5.0,2.0,5.0,2.0,sophiaturner@gmail.com,1923486075.0,,,3.6,1.5129599786790509,1,1
+24.0,Noah Harris,31.0,Male,"javascript, react, node.js",3.0,Bachelor's in Computer Science,4.0,3.0,5.0,4.0,3.0,noahharris@gmail.com,6850972134.0,,,3.25,0.2899610229139742,1,1
+25.0,Isabella White,35.0,Female,"php, html/css, machine learning",2.0,Master's in Data Science,5.0,4.0,3.0,4.0,4.0,isabellawhite@gmail.com,3592648701.0,,,3.2500000000000004,-0.32153845496856415,1,1
+26.0,Mason Robinson,27.0,Male,"c++, java, data analysis",3.0,Bachelor's in Statistics,3.0,4.0,2.0,3.0,2.0,masonrobinson@gmail.com,8629304715.0,,,2.6500000000000004,0.2899610229139742,1,1
+27.0,Mia Thompson,33.0,Female,"python, ux design, database administration",4.0,Bachelor's in Information Systems,4.0,5.0,3.0,5.0,3.0,miathompson@gmail.com,7412058369.0,,,3.6499999999999995,0.9014605007965124,1,1
+28.0,Aiden Clark,26.0,Male,"java, sql, angular",5.0,Bachelor's in Software Engineering,3.0,3.0,2.0,3.0,4.0,aidenclark@gmail.com,5046782391.0,,,2.05,1.5129599786790509,0,0
+29.0,Harper Lewis,31.0,Male,"javascript, html/css, data science",2.0,Master's in Computer Science,5.0,4.0,4.0,4.0,3.0,71762133027@cit.edu.in,3196845027.0,,,3.5999999999999996,-0.32153845496856415,0,0
+30.0,Carter Hall,29.0,Male,"python, javascript, react",3.0,Bachelor's in Computer Science,3.0,4.0,2.0,4.0,3.0,carterhall@gmail.com,8237459610.0,,,2.7,0.2899610229139742,1,1
+31.0,Grace Adams,32.0,Female,"c++, data structures, sql",4.0,Bachelor's in Computer Science,3.0,4.0,2.0,4.0,3.0,graceadams@gmail.com,9678034152.0,,,2.7,0.9014605007965124,1,1
+32.0,Jackson Moore,28.0,Male,"java, python, machine learning",2.0,Master's in Data Science,3.0,4.0,2.0,4.0,3.0,jacksonmoore@gmail.com,1542093786.0,,,2.7,-0.32153845496856415,1,1
+33.0,Lily Walker,35.0,Female,"javascript, angular, data analysis",5.0,Bachelor's in Statistics,4.0,5.0,2.0,5.0,2.0,lilywalker@gmail.com,6057812943.0,,,3.6,1.5129599786790509,1,1
+34.0,Wyatt Brooks,26.0,Male,"php, html/css, ux design",3.0,Bachelor's in Web Design,4.0,3.0,4.0,3.0,2.0,wyattbrooks@gmail.com,4926138570.0,,,3.0000000000000004,0.2899610229139742,1,1
+35.0,Zoey Foster,33.0,Male,"c#, data structures, machine learning",4.0,Master's in Computer Science,5.0,4.0,3.0,4.0,4.0,zoeyfoster@gmail.com,7183956240.0,,,3.2500000000000004,0.9014605007965124,1,1
+36.0,Owen Cooper,31.0,Male,"python, data science, database administration",2.0,Bachelor's in Information Systems,3.0,3.0,2.0,3.0,4.0,owencooper@gmail.com,3865047291.0,,,2.05,-0.32153845496856415,0,0
+37.0,Ava Edwards,29.0,Female,"java, sql, react",3.0,Bachelor's in Software Engineering,3.0,4.0,2.0,4.0,3.0,avaedwards@gmail.com,9493728056.0,,,2.7,0.2899610229139742,1,1
+38.0,Oliver Bryant,32.0,Male,"c++, javascript, angular",4.0,Bachelor's in Computer Science,3.0,4.0,2.0,4.0,3.0,oliverbryant@gmail.com,7345091876.0,,,2.7,0.9014605007965124,1,1
+39.0,Emma Hayes,28.0,Female,"python, data analysis, node.js",5.0,Bachelor's in Computer Science,3.0,4.0,2.0,4.0,3.0,emmahayes@gmail.com,8761203459.0,,,2.7,1.5129599786790509,1,1
+40.0,Benjamin Ross,30.0,Male,"javascript, html/css, ux design",2.0,Bachelor's in Web Design,5.0,4.0,3.0,4.0,4.0,benjaminross@gmail.com,8403928176.0,,,3.2500000000000004,-0.32153845496856415,0,0
+41.0,Amelia King,27.0,Female,"c#, data structures, sql",3.0,Bachelor's in Computer Science,4.0,5.0,3.0,5.0,2.0,ameliaking@gmail.com,9403928176.0,,,3.8,0.2899610229139742,1,1
+45.0,Khaleef,19.0,Male,"data analysis, sql, data analysis, data structures, javascript, machine learning, machine learning, data analysis, python, python, react, data science",1.0,,2.0,2.0,2.0,2.0,2.0,71762133044@cit.edu.in,8072744511.0,,,1.5999999999999999,-0.9330379328511024,1,1
+46.0,Abith,35.0,Male,"machine learning, r, php, python, data analysis",7.0,m.sc,0.8,2.0,1.2,1.4,0.6,abisara@gmail.com,7893214591.0,,,1.23,2.7359589344441275,1,1
+47.0,Praveen,27.0,Male,"sql, java, r, machine learning, data structures, python, javascript, php",5.0,diploma,3.0,4.0,5.0,4.0,2.0,praveen@gmail.com,8795487524.0,,,3.45,1.5129599786790509,1,1
+,Otdnb Alyszfps,,,"data analysis, javascript, machine learning, react",1.87,B.E,2.0,5.0,4.0,4.0,1.0,otdnb.alyszfps@gmail.com,,,,3.4499999999999997,-0.40103338709329406,1,1
+,Jakunybe Kfkwqi,,,"aws, docker, java, pytorch, python, sql",4.06,MCA,1.0,3.0,4.0,4.0,1.0,jakunybe.kfkwqi@gmail.com,,,,2.6,0.9381504694694646,1,1
+,Wfucheg Pjotjn,,,"docker, html, kubernetes, pytorch, sql",2.28,BCA,3.0,5.0,5.0,2.0,4.0,wfucheg.pjotjn@gmail.com,,,,3.05,-0.15031860116145354,1,1
+,Eeqmh Xtxtxqq,,,"css, data analysis, html, kubernetes",1.07,B.Tech,5.0,3.0,1.0,4.0,3.0,eeqmh.xtxtxqq@gmail.com,,,,2.7,-0.8902329693993247,0,0
+,Dyhel Wctsn,,,"aws, deep learning, docker, html, machine learning",1.51,B.Sc,5.0,5.0,2.0,4.0,1.0,dyhel.wctsn@gmail.com,,,,3.8000000000000003,-0.6211731991310079,1,1
+,Awkffw Cbkrca,,,"html, kubernetes, machine learning, python, react",0.41,MCA,2.0,5.0,1.0,3.0,5.0,awkffw.cbkrca@gmail.com,,,,2.0500000000000003,-1.2938226248017999,1,1
+,Xhneov Akjyl,,,"deep learning, machine learning",2.78,MCA,4.0,4.0,4.0,1.0,5.0,xhneov.akjyl@gmail.com,,,,2.45,0.15543113777981563,1,1
+,Dwtqnn Avjui,,,"aws, docker, java, javascript, pytorch, python",2.95,B.E,3.0,2.0,5.0,2.0,3.0,dwtqnn.avjui@gmail.com,,,,2.3,0.25938604901984735,1,1
+,Aanfw Trrjv,,,"aws, css, deep learning, java, node.js, pytorch",3.34,MCA,5.0,3.0,2.0,3.0,2.0,aanfw.trrjv@gmail.com,,,,2.85,0.4978708453940371,1,1
+,Yqhds Xjptws,,,"aws, docker, javascript, machine learning, node.js, tensorflow",3.27,MCA,1.0,1.0,3.0,1.0,4.0,yqhds.xjptws@gmail.com,,,,0.7500000000000001,0.4550658819422595,1,1
+,Yggavp Namucxvy,,,"css, html, java, machine learning, node.js, react",2.85,M.Tech,2.0,4.0,5.0,2.0,3.0,yggavp.namucxvy@gmail.com,,,,2.6500000000000004,0.19823610123159346,1,1
+,Tylhb Kddwj,,,"css, deep learning, html, java, pytorch, python",3.63,MCA,4.0,4.0,5.0,4.0,4.0,tylhb.kddwj@gmail.com,,,,3.4,0.6752056939799732,1,1
+,Wqcdne Qqegnks,,,"aws, css, docker, java, machine learning, python, tensorflow",4.81,B.Sc,3.0,5.0,2.0,4.0,5.0,wqcdne.qqegnks@gmail.com,,,,2.7,1.3967750778813681,1,1
+,Mwxiwr Zfkqqjs,,,"c++, node.js, pytorch, python",0.67,M.Tech,3.0,4.0,2.0,5.0,2.0,mwxiwr.zfkqqjs@gmail.com,,,,3.0500000000000003,-1.13483276055234,1,1
+,Luwhftuf Hkaalxpl,,,"c++, data analysis, java, kubernetes, machine learning, node.js",1.94,M.Tech,2.0,5.0,1.0,3.0,3.0,luwhftuf.hkaalxpl@gmail.com,,,,2.3500000000000005,-0.35822842364151647,0,0
+,Emjvhq Qbckzi,,,"c++, deep learning, machine learning, sql",0.84,B.E,1.0,2.0,4.0,1.0,4.0,emjvhq.qbckzi@gmail.com,,,,1.25,-1.0308778493123087,0,0
+,Vnktvson Ubsxst,,,"aws, java, javascript, machine learning, node.js, python",4.14,BCA,1.0,4.0,2.0,3.0,2.0,vnktvson.ubsxst@gmail.com,,,,2.1500000000000004,0.9870704277000676,1,1
+,Orgnavfn Rdaqvcv,,,"data analysis, docker, javascript, machine learning, react, sql",3.07,M.Sc,2.0,2.0,1.0,1.0,1.0,orgnavfn.rdaqvcv@gmail.com,,,,1.35,0.3327659863657517,1,1
+,Vxwjsiz Knqwvy,,,"html, node.js, python",0.1,B.Sc,4.0,1.0,1.0,5.0,1.0,vxwjsiz.knqwvy@gmail.com,,,,2.35,-1.483387462945387,0,0
+,Ojtghket Tipsf,,,"data analysis, deep learning, docker, node.js, pytorch, react",4.5,Diploma,4.0,4.0,5.0,2.0,3.0,ojtghket.tipsf@gmail.com,,,,3.1500000000000004,1.2072102397377815,1,1
+,Bbuqgguv Wlcwl,,,"c++, pytorch, python",4.28,B.Tech,2.0,3.0,5.0,3.0,5.0,bbuqgguv.wlcwl@gmail.com,,,,2.25,1.0726803546036234,1,1
+,Utica Jfxjupkx,,,"aws, css, docker, java, machine learning, node.js, python",0.9,B.Sc,5.0,4.0,3.0,1.0,4.0,utica.jfxjupkx@gmail.com,,,,2.6500000000000004,-0.9941878806393563,1,1
+,Wowkz Gzgmfz,,,"deep learning, html, java, node.js, pytorch, python, sql",0.62,Diploma,4.0,4.0,5.0,2.0,5.0,wowkz.gzgmfz@gmail.com,,,,2.85,-1.1654077344464668,1,1
+,Wqboptcv Gdavb,,,"docker, javascript, machine learning, pytorch, python",0.21,B.Sc,2.0,4.0,3.0,5.0,2.0,wqboptcv.gdavb@gmail.com,,,,3.0,-1.4161225203783077,1,1
+,Vmkyahh Cqvqo,,,"data analysis, sql",1.04,M.Sc,1.0,1.0,1.0,2.0,5.0,vmkyahh.cqvqo@gmail.com,,,,0.3999999999999999,-0.9085779537358009,0,0
+,Aqwmury Byefw,,,"html, pytorch, python, tensorflow",1.3,MCA,4.0,4.0,5.0,1.0,3.0,aqwmury.byefw@gmail.com,,,,2.95,-0.7495880894863409,1,1
+,Fewmk Roweh,,,"aws, java, javascript, machine learning, python",1.63,M.Tech,5.0,2.0,1.0,2.0,3.0,fewmk.roweh@gmail.com,,,,2.0,-0.5477932617851033,1,1
+,Qfmbruiv Zupre,,,"c++, java, python, sql",2.47,B.Sc,4.0,4.0,4.0,2.0,2.0,qfmbruiv.zupre@gmail.com,,,,3.1,-0.034133700363771016,1,1
+,Roxcq Grorz,,,"html, java, javascript, python",0.67,M.Sc,1.0,5.0,1.0,2.0,1.0,roxcq.grorz@gmail.com,,,,2.2,-1.13483276055234,0,0
+,Lyqrz Ovmddazb,,,"node.js, sql",0.47,B.E,5.0,2.0,5.0,2.0,3.0,lyqrz.ovmddazb@gmail.com,,,,2.8,-1.2571326561288478,0,0
+,Tyvztavf Ujgxe,,,"css, javascript, machine learning, pytorch, tensorflow",6.04,M.Sc,4.0,2.0,3.0,3.0,5.0,tyvztavf.ujgxe@gmail.com,,,,2.0500000000000003,2.148919435676891,1,1
+,Ugudfuss Wodcn,,,"javascript, sql",0.68,B.Tech,5.0,5.0,4.0,4.0,3.0,ugudfuss.wodcn@gmail.com,,,,3.8999999999999995,-1.1287177657735146,0,0
+,Pinnmvjd Xzshw,,,"docker, javascript, machine learning, pytorch, python, react",1.86,B.Tech,5.0,3.0,1.0,2.0,4.0,pinnmvjd.xzshw@gmail.com,,,,2.15,-0.40714838187211944,1,1
+,Khrtxk Frmthhvp,,,"c++, css, docker, html, python, sql",0.9,B.Sc,5.0,2.0,1.0,3.0,1.0,khrtxk.frmthhvp@gmail.com,,,,2.5000000000000004,-0.9941878806393563,0,0
+,Fqdqcngm Yyfgxqht,,,"deep learning, docker, java, react",3.26,Diploma,5.0,4.0,5.0,2.0,4.0,fqdqcngm.yyfgxqht@gmail.com,,,,3.25,0.448950887163434,1,1
+,Bpuvnik Tbozkic,,,"aws, c++, css, data analysis, machine learning, python",4.39,B.Sc,5.0,2.0,2.0,3.0,2.0,bpuvnik.tbozkic@gmail.com,,,,2.5500000000000003,1.1399452971707023,1,1
+,Ccdljp Peroudfc,,,"css, data analysis, machine learning, react",0.3,BCA,1.0,3.0,2.0,3.0,4.0,ccdljp.peroudfc@gmail.com,,,,1.5499999999999998,-1.3610875673688794,0,0
+,Zldxuuw Wbkjtovc,,,"data analysis, docker, html",0.68,B.Tech,3.0,5.0,4.0,1.0,3.0,zldxuuw.wbkjtovc@gmail.com,,,,2.8,-1.1287177657735146,0,0
+,Mudxmyns Peydsnxk,,,"html, java, machine learning, react",2.73,BCA,1.0,4.0,4.0,5.0,1.0,mudxmyns.peydsnxk@gmail.com,,,,3.1,0.1248561638856888,1,1
+,Aqhigy Xqzaqep,,,"java, kubernetes, machine learning, node.js",2.22,M.Sc,5.0,2.0,5.0,1.0,3.0,aqhigy.xqzaqep@gmail.com,,,,2.6000000000000005,-0.18700856983440559,1,1
+,Vswlkgdf Yyjug,,,"javascript, node.js, pytorch, python, sql",2.35,M.Sc,5.0,2.0,3.0,3.0,3.0,vswlkgdf.yyjug@gmail.com,,,,2.6000000000000005,-0.10751363770967567,1,1
+,Nmcbyro Myfudhds,,,"data analysis, docker, python, react, tensorflow",2.88,M.Sc,3.0,3.0,4.0,1.0,5.0,nmcbyro.myfudhds@gmail.com,,,,1.9000000000000004,0.2165810855680695,1,1
+,Tdyme Cdsvhhgt,,,"css, java, machine learning, node.js, tensorflow",0.06,M.Sc,1.0,2.0,4.0,4.0,3.0,tdyme.cdsvhhgt@gmail.com,,,,2.0,-1.5078474420606884,0,0
+,Tvekdsd Oauus,,,"aws, kubernetes, node.js, python, sql",3.19,Diploma,5.0,1.0,3.0,3.0,3.0,tvekdsd.oauus@gmail.com,,,,2.3000000000000007,0.4061459237116564,1,1
+,Hwqsnict Ykzvcjge,,,"aws, docker, java, kubernetes",3.96,M.Tech,5.0,2.0,1.0,3.0,3.0,hwqsnict.ykzvcjge@gmail.com,,,,2.2,0.8770005216812109,0,0
+,Btggj Toucqq,,,"docker, kubernetes, node.js, python, react",1.4,B.Sc,4.0,5.0,1.0,1.0,4.0,btggj.toucqq@gmail.com,,,,2.3000000000000003,-0.6884381416980871,0,0
+,Jksvppen Xccxdkav,,,"c++, css, docker, javascript, machine learning, python",3.36,BCA,2.0,2.0,2.0,5.0,2.0,jksvppen.xccxdkav@gmail.com,,,,2.2,0.5101008349516879,1,1
+,Oxmmca Qfbob,,,"data analysis, docker, kubernetes, node.js",0.22,Diploma,2.0,5.0,4.0,2.0,2.0,oxmmca.qfbob@gmail.com,,,,2.9,-1.4100075255994822,0,0
+,Leltfp Biqdhxq,,,"docker, python, sql",4.06,M.Sc,1.0,2.0,5.0,1.0,4.0,leltfp.biqdhxq@gmail.com,,,,1.4500000000000002,0.9381504694694646,1,1
+,Bcuxe Vswejzw,,,"css, docker, java, machine learning, python, tensorflow",2.19,Diploma,4.0,5.0,5.0,4.0,3.0,bcuxe.vswejzw@gmail.com,,,,3.8499999999999996,-0.20535355417088189,1,1
+,Ymfovp Vcqupxym,,,"aws, deep learning, kubernetes, sql",2.55,B.Sc,1.0,3.0,3.0,4.0,1.0,ymfovp.vcqupxym@gmail.com,,,,2.4,0.01478625786683182,0,0
+,Mcaoa Uhjcy,,,"data analysis, docker, javascript, machine learning, python, sql",3.76,MCA,2.0,4.0,3.0,4.0,4.0,mcaoa.uhjcy@gmail.com,,,,2.4999999999999996,0.7547006261047031,1,1
+,Ssirewyr Fvcnx,,,"data analysis, machine learning, node.js, tensorflow",1.14,Diploma,3.0,1.0,2.0,4.0,5.0,ssirewyr.fvcnx@gmail.com,,,,1.5,-0.8474280059475471,0,0
+,Vktmbw Nstmpfo,,,"css, java, javascript, machine learning, sql",3.52,B.Sc,1.0,2.0,1.0,2.0,2.0,vktmbw.nstmpfo@gmail.com,,,,1.1500000000000001,0.607940751412894,1,1
+,Lchou Zgkquxb,,,"css, data analysis, machine learning, pytorch, python, react",2.38,BCA,2.0,2.0,3.0,5.0,1.0,lchou.zgkquxb@gmail.com,,,,2.5500000000000003,-0.08916865337319965,1,1
+,Rsres Ogozs,,,"deep learning, html",2.17,Diploma,4.0,1.0,2.0,2.0,2.0,rsres.ogozs@gmail.com,,,,1.8,-0.21758354372853267,0,0
+,Cuduw Nkrpqka,,,"css, html, javascript, kubernetes, machine learning",4.04,Diploma,4.0,5.0,1.0,5.0,5.0,cuduw.nkrpqka@gmail.com,,,,2.95,0.925920479911814,1,1
+,Xovsbix Bfbvfl,,,"aws, kubernetes, machine learning, python, react, sql",3.46,B.Sc,2.0,3.0,4.0,5.0,1.0,xovsbix.bfbvfl@gmail.com,,,,3.0500000000000003,0.5712507827399418,1,1
+,Qwdzind Kgnjlhya,,,"aws, c++, javascript, react",1.06,M.Tech,2.0,5.0,2.0,3.0,4.0,qwdzind.kgnjlhya@gmail.com,,,,2.4,-0.8963479641781501,0,0
+,Sjfxen Qoanbc,,,"css, docker, kubernetes, machine learning, tensorflow",1.71,M.Sc,2.0,3.0,2.0,5.0,2.0,sjfxen.qoanbc@gmail.com,,,,2.5,-0.49887330355450027,0,0
+,Epkzbrz Wceifyp,,,"aws, kubernetes, machine learning, python",0.77,Diploma,2.0,4.0,1.0,5.0,4.0,epkzbrz.wceifyp@gmail.com,,,,2.3,-1.0736828127640863,1,1
+,Nvwjml Gjyqm,,,"docker, javascript, python",2.05,BCA,4.0,2.0,2.0,2.0,5.0,nvwjml.gjyqm@gmail.com,,,,1.65,-0.2909634810744373,1,1
+,Zkgbb Epuotgzl,,,"java, node.js",6.09,B.E,2.0,1.0,4.0,4.0,2.0,zkgbb.epuotgzl@gmail.com,,,,2.1000000000000005,2.1794944095710176,0,0
+,Anwulkwz Kmnbf,,,"deep learning, kubernetes, python",2.06,B.Tech,4.0,2.0,2.0,3.0,3.0,anwulkwz.kmnbf@gmail.com,,,,2.1500000000000004,-0.2848484862956118,1,1
+,Utbmqwyl Nqvefts,,,"java, machine learning, node.js, python, react",1.22,BCA,5.0,5.0,4.0,1.0,3.0,utbmqwyl.nqvefts@gmail.com,,,,3.3,-0.7985080477169441,1,1
+,Cbcgse Sijnmo,,,"data analysis, deep learning, java, machine learning, react, sql",1.85,M.Sc,3.0,2.0,3.0,4.0,3.0,cbcgse.sijnmo@gmail.com,,,,2.3,-0.4132633766509448,0,0
+,Rqrruw Wyyswwg,,,"javascript, node.js, sql, tensorflow",1.53,BCA,3.0,1.0,2.0,2.0,4.0,rqrruw.wyyswwg@gmail.com,,,,1.25,-0.6089432095733571,0,0
+,Jwsnbgpa Njfvogc,,,"javascript, kubernetes, node.js",3.47,M.Sc,5.0,5.0,4.0,4.0,3.0,jwsnbgpa.njfvogc@gmail.com,,,,3.8999999999999995,0.5773657775187673,1,1
+,Jhlbblxx Rtprt,,,"deep learning, html, node.js, pytorch, tensorflow",3.61,B.Sc,3.0,2.0,5.0,2.0,3.0,jhlbblxx.rtprt@gmail.com,,,,2.3,0.6629757044223225,0,0
+,Yjsscsit Iykukin,,,"javascript, tensorflow",4.39,MCA,5.0,2.0,4.0,5.0,3.0,yjsscsit.iykukin@gmail.com,,,,3.2,1.1399452971707023,1,1
+,Lwtwf Ijzlfzt,,,"css, data analysis, docker, java, machine learning, tensorflow",3.41,MCA,1.0,1.0,4.0,3.0,5.0,lwtwf.ijzlfzt@gmail.com,,,,1.2000000000000002,0.5406758088458149,1,1
+,Rmrzprem Oafmvj,,,"c++, css, html, machine learning, node.js, pytorch",3.57,M.Sc,1.0,5.0,5.0,4.0,4.0,rmrzprem.oafmvj@gmail.com,,,,2.9499999999999997,0.6385157253070209,1,1
+,Eifjf Yboxxcx,,,"aws, machine learning, pytorch, python, sql",2.38,BCA,5.0,5.0,1.0,3.0,3.0,eifjf.yboxxcx@gmail.com,,,,3.1000000000000005,-0.08916865337319965,1,1
+,Mpyvx Gzlyk,,,"c++, css, docker, java, pytorch",1.98,B.E,2.0,3.0,4.0,5.0,1.0,mpyvx.gzlyk@gmail.com,,,,3.0500000000000003,-0.3337684445262149,0,0
+,Apinkeh Zhyzi,,,"c++, data analysis, kubernetes, machine learning, python",3.42,B.E,3.0,4.0,1.0,5.0,1.0,apinkeh.zhyzi@gmail.com,,,,3.0,0.5467908036246402,1,1
+,Rflogxy Mvzpvhy,,,"deep learning, java, node.js",1.83,M.Tech,5.0,3.0,2.0,5.0,1.0,rflogxy.mvzpvhy@gmail.com,,,,3.4,-0.4254933662085956,0,0
+,Ihuta Ufmojn,,,"deep learning, docker, kubernetes, machine learning, node.js, python, react",1.14,B.Sc,1.0,4.0,5.0,5.0,4.0,ihuta.ufmojn@gmail.com,,,,2.85,-0.8474280059475471,1,1
+,Qxtjgtt Flwcklcg,,,"aws, css, machine learning, python",4.99,B.Tech,2.0,5.0,3.0,4.0,4.0,qxtjgtt.flwcklcg@gmail.com,,,,2.8000000000000003,1.5068449839002256,1,1
+,Zlbhemxl Akdmcw,,,"aws, pytorch, python",5.68,MCA,4.0,4.0,3.0,4.0,3.0,zlbhemxl.akdmcw@gmail.com,,,,3.1500000000000004,1.9287796236391765,1,1
+,Rawkxe Mbownfgu,,,"docker, kubernetes, node.js, pytorch, sql, tensorflow",0.6,Diploma,2.0,4.0,1.0,5.0,3.0,rawkxe.mbownfgu@gmail.com,,,,2.45,-1.1776377240041176,0,0
+,Wfzsakjk Uchxca,,,"docker, java, kubernetes, node.js, python, react",0.65,M.Tech,2.0,3.0,5.0,1.0,4.0,wfzsakjk.uchxca@gmail.com,,,,2.0,-1.1470627501099908,0,0
+,Xnsqjk Kbvbzl,,,"css, data analysis, machine learning, pytorch",0.69,M.Tech,3.0,2.0,2.0,1.0,5.0,xnsqjk.kbvbzl@gmail.com,,,,1.2,-1.1226027709946893,0,0
+,Anmmciq Lfijoc,,,"aws, data analysis, java, node.js, pytorch",1.97,B.Tech,4.0,3.0,3.0,2.0,4.0,anmmciq.lfijoc@gmail.com,,,,2.3,-0.3398834393050403,0,0
+,Otpik Mqybbll,,,"aws, data analysis, docker, kubernetes, python, sql",3.37,M.Tech,1.0,3.0,3.0,5.0,5.0,otpik.mqybbll@gmail.com,,,,2.0,0.5162158297305134,1,1
+,Prgejb Jridjcqs,,,"css, deep learning, java",0.58,B.Sc,4.0,1.0,4.0,3.0,5.0,prgejb.jridjcqs@gmail.com,,,,1.9500000000000002,-1.1898677135617686,0,0
+,Nxgbkxu Ovdeh,,,"data analysis, docker, python",1.81,BCA,1.0,4.0,5.0,2.0,4.0,nxgbkxu.ovdeh@gmail.com,,,,2.25,-0.4377233557662464,0,0
+,Ewwhpr Rnhxr,,,"aws, docker, html, kubernetes, machine learning, pytorch",3.73,B.Tech,5.0,5.0,5.0,3.0,5.0,ewwhpr.rnhxr@gmail.com,,,,3.5999999999999996,0.7363556417682271,1,1
+,Dtqplvb Wszgmg,,,"aws, kubernetes, machine learning, python",6.07,B.Sc,4.0,1.0,2.0,5.0,5.0,dtqplvb.wszgmg@gmail.com,,,,1.9500000000000002,2.167264420013367,1,1
+,Rciaysq Hfmynaf,,,"html, react, tensorflow",2.9,M.Sc,1.0,4.0,3.0,3.0,5.0,rciaysq.hfmynaf@gmail.com,,,,1.9,0.22881107512572027,0,0
+,Yvckw Nyrrlphd,,,"c++, kubernetes",0.69,MCA,2.0,2.0,2.0,5.0,2.0,yvckw.nyrrlphd@gmail.com,,,,2.2,-1.1226027709946893,0,0
+,Bqrintm Qmqmz,,,"aws, tensorflow",5.35,M.Tech,3.0,3.0,2.0,1.0,2.0,bqrintm.qmqmz@gmail.com,,,,1.95,1.726984795937939,0,0
+,Dcepao Gceewgvi,,,"aws, data analysis, javascript, pytorch, python, react",1.48,B.E,3.0,1.0,4.0,2.0,2.0,dcepao.gceewgvi@gmail.com,,,,1.95,-0.639518183467484,0,0
+,Cupreml Xuoxhjok,,,"docker, javascript, machine learning, react, tensorflow",5.16,M.Sc,4.0,3.0,1.0,3.0,2.0,cupreml.xuoxhjok@gmail.com,,,,2.4000000000000004,1.610799895140257,1,1
+,Ipzwjq Qimuztdt,,,"aws, css, html, kubernetes",1.24,M.Tech,3.0,5.0,1.0,1.0,3.0,ipzwjq.qimuztdt@gmail.com,,,,2.2,-0.7862780581592932,0,0
+,Lljcabt Tkvla,,,"css, docker, kubernetes, machine learning, node.js, python",4.87,B.Sc,1.0,2.0,4.0,2.0,1.0,lljcabt.tkvla@gmail.com,,,,1.9,1.4334650465543208,1,1
+,Iqlqv Mzjhz,,,"docker, kubernetes",7.23,M.Sc,1.0,2.0,5.0,5.0,1.0,iqlqv.mzjhz@gmail.com,,,,2.7,2.8766038143571113,1,1
+,Nmzpxcg Zrochylm,,,"deep learning, javascript, tensorflow",3.03,B.E,4.0,4.0,3.0,3.0,3.0,nmzpxcg.zrochylm@gmail.com,,,,2.95,0.3083060072504502,1,1
+,Qbxhw Gfezn,,,"css, machine learning, node.js, sql",2.57,BCA,3.0,3.0,3.0,2.0,5.0,qbxhw.gfezn@gmail.com,,,,1.9,0.0270162474244826,1,1
+,Opsjn Irlkedp,,,"aws, deep learning, docker, react, tensorflow",0.54,B.Tech,3.0,3.0,3.0,4.0,4.0,opsjn.irlkedp@gmail.com,,,,2.4499999999999997,-1.21432769267707,0,0
+,Dioqy Evdttwza,,,"css, docker, html, javascript, pytorch",4.28,B.Tech,1.0,3.0,5.0,1.0,5.0,dioqy.evdttwza@gmail.com,,,,1.6,1.0726803546036234,0,0
+,Mzbbkll Hkjoevp,,,"deep learning, java, machine learning, pytorch",6.78,MCA,3.0,2.0,5.0,1.0,4.0,mzbbkll.hkjoevp@gmail.com,,,,1.9500000000000002,2.601429049309969,1,1
+,Jpytjuq Vkxfgey,,,"aws, docker, kubernetes, machine learning, node.js, react",1.75,MCA,2.0,2.0,4.0,1.0,4.0,jpytjuq.vkxfgey@gmail.com,,,,1.5,-0.4744133244391987,0,0
+,Bdhxxr Wndczck,,,"aws, c++, css, react",2.93,M.Sc,1.0,4.0,2.0,2.0,5.0,bdhxxr.wndczck@gmail.com,,,,1.5,0.24715605946219657,0,0
+,Fkddu Qjuazctx,,,"css, machine learning, pytorch",0.01,B.Tech,5.0,2.0,4.0,4.0,5.0,fkddu.qjuazctx@gmail.com,,,,2.7,-1.5384224159548154,1,1
+,Ukgytj Lcspmw,,,"aws, pytorch, python, react",3.45,M.Sc,3.0,4.0,4.0,2.0,2.0,ukgytj.lcspmw@gmail.com,,,,2.85,0.5651357879611165,1,1
+,Hxsiyjy Znyzp,,,"deep learning, javascript, machine learning",2.8,M.Tech,4.0,2.0,5.0,3.0,2.0,hxsiyjy.znyzp@gmail.com,,,,2.9000000000000004,0.16766112733746638,1,1
+,Kfvew Uzgxjhm,,,"c++, docker, pytorch",2.49,MCA,1.0,4.0,2.0,5.0,1.0,kfvew.uzgxjhm@gmail.com,,,,2.7,-0.021903710806120236,1,1
+,Eotgwdgu Wgssbjqs,,,"css, docker, java, machine learning",0.86,Diploma,4.0,1.0,3.0,1.0,5.0,eotgwdgu.wgssbjqs@gmail.com,,,,1.35,-1.0186478597546578,0,0
+,Dddnjldz Hoemrs,,,"aws, deep learning, machine learning",2.94,B.Tech,2.0,3.0,2.0,1.0,5.0,dddnjldz.hoemrs@gmail.com,,,,1.2499999999999998,0.2532710542410218,1,1
+,Kwcbrsy Fuiwawaj,,,"c++, css, data analysis, html, javascript, tensorflow",2.53,B.E,5.0,3.0,2.0,1.0,1.0,kwcbrsy.fuiwawaj@gmail.com,,,,2.6,0.0025562683091810436,0,0
+,Ymbfrk Yjjwzud,,,"css, data analysis, python",3.92,Diploma,1.0,1.0,1.0,4.0,5.0,ymbfrk.yjjwzud@gmail.com,,,,0.8,0.8525405425659094,1,1
+,Qrszcfp Uvvmjqhb,,,"deep learning, html, python",3.09,B.E,3.0,3.0,5.0,3.0,4.0,qrszcfp.uvvmjqhb@gmail.com,,,,2.65,0.34499597592340253,1,1
+,Pyiacav Urebs,,,"docker, machine learning, node.js, react",0.64,M.Tech,2.0,4.0,4.0,4.0,3.0,pyiacav.urebs@gmail.com,,,,2.8499999999999996,-1.153177744888816,1,1
+,Egtmcbr Btihywk,,,"css, javascript, node.js",1.36,BCA,4.0,4.0,4.0,2.0,2.0,egtmcbr.btihywk@gmail.com,,,,3.1,-0.7128981208133885,0,0
+,Ylfjw Jajprw,,,"deep learning, java, kubernetes, machine learning, node.js, react",3.62,M.Sc,5.0,1.0,2.0,2.0,2.0,ylfjw.jajprw@gmail.com,,,,2.0500000000000003,0.6690906992011479,1,1
+,Dnoyenu Olmsp,,,"html, java, machine learning, pytorch, python, react",2.91,Diploma,5.0,1.0,5.0,4.0,2.0,dnoyenu.olmsp@gmail.com,,,,3.05,0.23492606990454581,1,1
+,Lazkzthi Khrfbv,,,"aws, javascript, kubernetes, machine learning, python, tensorflow",7.65,M.Tech,2.0,5.0,1.0,1.0,5.0,lazkzthi.khrfbv@gmail.com,,,,1.6500000000000004,3.1334335950677774,1,1
+,Ysmvwfw Sjzyrm,,,"data analysis, pytorch, tensorflow",0.76,B.E,3.0,1.0,3.0,5.0,3.0,ysmvwfw.sjzyrm@gmail.com,,,,2.2,-1.0797978075429115,0,0
+,Sktfn Bjsgnchn,,,"aws, c++, data analysis, java, javascript, machine learning, node.js",0.15,B.Tech,1.0,5.0,5.0,3.0,1.0,sktfn.bjsgnchn@gmail.com,,,,3.2,-1.45281248905126,1,1
+,Tanyexwh Lvgvtvpc,,,"html, node.js, python",2.19,M.Sc,1.0,1.0,3.0,5.0,2.0,tanyexwh.lvgvtvpc@gmail.com,,,,1.8500000000000003,-0.20535355417088189,1,1
+,Zwhdmv Fjcidkgz,,,"c++, javascript, machine learning, node.js, pytorch, python",4.2,B.Tech,3.0,5.0,1.0,5.0,4.0,zwhdmv.fjcidkgz@gmail.com,,,,2.85,1.0237603963730202,1,1
+,Lvnmvhty Pojqqjnw,,,"css, data analysis, deep learning, docker, java, react",0.58,M.Tech,4.0,5.0,4.0,4.0,5.0,lvnmvhty.pojqqjnw@gmail.com,,,,3.3499999999999996,-1.1898677135617686,0,0
+,Nssgob Cybhfsqg,,,"css, html, pytorch, sql",0.33,M.Tech,2.0,3.0,4.0,4.0,1.0,nssgob.cybhfsqg@gmail.com,,,,2.85,-1.3427425830324031,0,0
+,Npnxp Kkxxfwus,,,"aws, css, deep learning, tensorflow",2.32,M.Tech,2.0,1.0,2.0,1.0,4.0,npnxp.kkxxfwus@gmail.com,,,,0.8000000000000002,-0.12585862204615197,0,0
+,Yhbgv Aiwtish,,,"css, docker, java, machine learning, node.js",0.91,Diploma,3.0,5.0,2.0,3.0,4.0,yhbgv.aiwtish@gmail.com,,,,2.65,-0.9880728858605308,1,1
+,Lcfcmms Mktihbce,,,"data analysis, python, sql",1.61,BCA,1.0,3.0,3.0,4.0,3.0,lcfcmms.mktihbce@gmail.com,,,,2.0999999999999996,-0.560023251342754,0,0
+,Jigeddta Kouymrd,,,"html, javascript, python",5.91,B.Sc,5.0,2.0,2.0,1.0,3.0,jigeddta.kouymrd@gmail.com,,,,2.0,2.0694245035521606,1,1
+,Griwq Ztjkn,,,"data analysis, pytorch, python, tensorflow",3.6,Diploma,1.0,2.0,4.0,3.0,1.0,griwq.ztjkn@gmail.com,,,,2.1,0.6568607096434972,1,1
+,Zlpwb Bnoxfymj,,,"data analysis, java",1.55,B.E,1.0,3.0,1.0,4.0,2.0,zlpwb.bnoxfymj@gmail.com,,,,1.8499999999999999,-0.5967132200157064,0,0
+,Zxvcgdpb Lnfkd,,,"data analysis, machine learning",1.49,M.Tech,4.0,3.0,3.0,2.0,1.0,zxvcgdpb.lnfkd@gmail.com,,,,2.75,-0.6334031886886586,1,1
+,Iccgfj Tmmxug,,,"docker, html, javascript, machine learning, pytorch",0.87,M.Sc,5.0,5.0,4.0,2.0,5.0,iccgfj.tmmxug@gmail.com,,,,3.1999999999999997,-1.0125328649758323,1,1
+,Zwoxjj Mbznlm,,,"deep learning, python",0.38,Diploma,5.0,1.0,1.0,5.0,3.0,zwoxjj.mbznlm@gmail.com,,,,2.3,-1.3121676091382761,0,0
+,Hnsyfix Jglvt,,,"aws, c++, html, python",1.73,B.E,3.0,4.0,3.0,4.0,4.0,hnsyfix.jglvt@gmail.com,,,,2.7499999999999996,-0.48664331399684946,1,1
+,Jrybyzhq Fwnkq,,,"aws, c++, deep learning, docker, kubernetes, node.js",1.24,Diploma,3.0,4.0,2.0,4.0,1.0,jrybyzhq.fwnkq@gmail.com,,,,3.0000000000000004,-0.7862780581592932,0,0
+,Bhenpkr Nhswfehq,,,"aws, css, html, java, machine learning, tensorflow",3.02,M.Tech,3.0,1.0,3.0,1.0,2.0,bhenpkr.nhswfehq@gmail.com,,,,1.55,0.30219101247162494,1,1
+,Olclgtcx Iighid,,,"docker, pytorch, sql, tensorflow",2.48,B.E,3.0,1.0,5.0,2.0,4.0,olclgtcx.iighid@gmail.com,,,,1.8499999999999996,-0.028018705584945763,0,0
+,Inzod Wmnpvte,,,"aws, css, kubernetes, node.js, pytorch, react",2.71,B.Sc,4.0,1.0,4.0,2.0,3.0,inzod.wmnpvte@gmail.com,,,,2.05,0.11262617432803804,0,0
+,Rapxqyc Cyxargyf,,,"css, deep learning, java, pytorch, python, react, sql",0.91,MCA,3.0,3.0,5.0,4.0,3.0,rapxqyc.cyxargyf@gmail.com,,,,3.0,-0.9880728858605308,1,1
+,Iqcja Afafcuj,,,"c++, html, machine learning, python",3.42,B.Tech,3.0,2.0,3.0,5.0,4.0,iqcja.afafcuj@gmail.com,,,,2.35,0.5467908036246402,1,1
+,Mhuxol Iwahcpa,,,"docker, python, tensorflow",0.76,Diploma,5.0,2.0,1.0,1.0,5.0,mhuxol.iwahcpa@gmail.com,,,,1.5000000000000004,-1.0797978075429115,0,0
+,Pppgxr Hxzjkk,,,"c++, machine learning",2.71,BCA,4.0,3.0,3.0,2.0,4.0,pppgxr.hxzjkk@gmail.com,,,,2.3,0.11262617432803804,1,1
+,Xcdyqgz Jesljf,,,"docker, machine learning, react, sql, tensorflow",0.16,BCA,4.0,5.0,1.0,5.0,5.0,xcdyqgz.jesljf@gmail.com,,,,2.95,-1.4466974942724344,1,1
+,Jclcr Gtzlk,,,"css, java",3.06,B.Tech,1.0,3.0,1.0,5.0,1.0,jclcr.gtzlk@gmail.com,,,,2.1999999999999997,0.3266509915869265,0,0
+,Rqtbrxe Hjuppxw,,,"css, machine learning, pytorch, python, react, tensorflow",2.41,Diploma,1.0,5.0,5.0,3.0,1.0,rqtbrxe.hjuppxw@gmail.com,,,,3.2,-0.07082366903672334,1,1
+,Gkanwror Vcxmx,,,"aws, c++, javascript, kubernetes, pytorch, python, react",2.88,BCA,1.0,1.0,1.0,2.0,2.0,gkanwror.vcxmx@gmail.com,,,,0.8499999999999999,0.2165810855680695,1,1
+,Shsuih Bkdnoroz,,,"deep learning, java, machine learning, node.js, pytorch, tensorflow",2.28,MCA,3.0,4.0,2.0,5.0,4.0,shsuih.bkdnoroz@gmail.com,,,,2.75,-0.15031860116145354,1,1
+,Xkpanyd Cbulkjn,,,"data analysis, html, tensorflow",0.64,MCA,4.0,1.0,1.0,1.0,3.0,xkpanyd.cbulkjn@gmail.com,,,,1.25,-1.153177744888816,0,0
+,Hfnbbh Muvbojat,,,"machine learning, python",1.69,B.E,2.0,1.0,3.0,4.0,2.0,hfnbbh.muvbojat@gmail.com,,,,1.9000000000000001,-0.5111032931121511,1,1
+,Ihhbpjg Bcukc,,,"data analysis, javascript, kubernetes, machine learning, python, tensorflow",3.3,B.Tech,1.0,5.0,1.0,4.0,2.0,ihhbpjg.bcukc@gmail.com,,,,2.45,0.4734108662787355,1,1
+,Wzijbwvs Nmxiy,,,"javascript, machine learning, pytorch",0.13,Diploma,4.0,5.0,2.0,2.0,4.0,wzijbwvs.nmxiy@gmail.com,,,,2.6999999999999997,-1.465042478608911,1,1
+,Ozahfmca Zfppdwyd,,,"c++, data analysis, javascript, node.js",2.03,B.Sc,3.0,5.0,5.0,2.0,1.0,ozahfmca.zfppdwyd@gmail.com,,,,3.5,-0.3031934706320881,1,1
+,Cgfinn Zalgkh,,,"html, javascript, python",1.7,B.E,4.0,3.0,5.0,3.0,3.0,cgfinn.zalgkh@gmail.com,,,,3.05,-0.5049882983333256,1,1
+,Flubiyf Ukbbzg,,,"data analysis, kubernetes, machine learning, react, tensorflow",3.58,B.Tech,1.0,5.0,5.0,4.0,2.0,flubiyf.ukbbzg@gmail.com,,,,3.25,0.6446307200858464,1,1
+,Kdcsnb Ucqyz,,,"data analysis, html, java, kubernetes, pytorch, python",3.86,Diploma,5.0,5.0,1.0,2.0,2.0,kdcsnb.ucqyz@gmail.com,,,,3.0500000000000003,0.815850573892957,1,1
+,Xikkksdo Zeomkauy,,,"data analysis, deep learning, docker, pytorch, python",2.6,BCA,4.0,5.0,3.0,4.0,3.0,xikkksdo.zeomkauy@gmail.com,,,,3.45,0.045361231760958895,1,1
+,Gwlwwed Xsemss,,,"css, data analysis, python, sql",2.01,M.Sc,3.0,2.0,3.0,5.0,2.0,gwlwwed.xsemss@gmail.com,,,,2.6500000000000004,-0.3154234601897389,1,1
+,Jumwoh Ythxj,,,"data analysis, python",0.49,MCA,3.0,1.0,5.0,5.0,3.0,jumwoh.ythxj@gmail.com,,,,2.5999999999999996,-1.2449026665711969,0,0
+,Adbksw Ywzsq,,,"docker, javascript, machine learning, pytorch, sql",3.19,Diploma,4.0,2.0,4.0,3.0,1.0,adbksw.ywzsq@gmail.com,,,,2.8500000000000005,0.4061459237116564,1,1
+,Ktdnxojb Bboie,,,"docker, python",2.76,B.Tech,2.0,3.0,4.0,5.0,5.0,ktdnxojb.bboie@gmail.com,,,,2.45,0.14320114822216484,1,1
+,Vygyq Eyxej,,,"data analysis, javascript, python, sql",7.21,M.Sc,4.0,2.0,2.0,2.0,1.0,vygyq.eyxej@gmail.com,,,,2.25,2.8643738247994603,1,1
+,Xhewci Vjvfm,,,"c++, css, deep learning, node.js, python",3.14,B.E,3.0,4.0,3.0,1.0,1.0,xhewci.vjvfm@gmail.com,,,,2.6,0.3755709498175296,1,1
+,Wgnqdyw Qgggbw,,,"machine learning, pytorch, python",0.86,M.Tech,2.0,4.0,5.0,4.0,2.0,wgnqdyw.qgggbw@gmail.com,,,,3.2,-1.0186478597546578,1,1
+,Ydopmp Iukvz,,,"aws, data analysis, java, machine learning, pytorch, react",0.6,BCA,4.0,3.0,3.0,2.0,5.0,ydopmp.iukvz@gmail.com,,,,2.15,-1.1776377240041176,0,0
+,Zlzymwum Iavtaz,,,"html, javascript, machine learning, pytorch, sql",2.18,B.Tech,1.0,3.0,1.0,3.0,5.0,zlzymwum.iavtaz@gmail.com,,,,1.2,-0.21146854894970715,1,1
+,Shypmeh Bydhzsmn,,,"aws, data analysis, html, javascript, kubernetes, pytorch",3.54,MCA,5.0,3.0,2.0,2.0,5.0,shypmeh.bydhzsmn@gmail.com,,,,2.1999999999999997,0.6201707409705448,0,0
+,Tjrhywh Lonbfdjh,,,"aws, css, docker, java, machine learning, node.js",0.15,M.Sc,1.0,1.0,1.0,2.0,5.0,tjrhywh.lonbfdjh@gmail.com,,,,0.3999999999999999,-1.45281248905126,0,0
+,Shgkasb Sdvlar,,,"c++, deep learning, docker, kubernetes, python, react, tensorflow",2.14,M.Tech,1.0,3.0,3.0,4.0,5.0,shgkasb.sdvlar@gmail.com,,,,1.7999999999999998,-0.2359285280650087,1,1
+,Njvag Vcbwjjo,,,"aws, css, deep learning, html, python, react, sql",1.54,B.Sc,2.0,4.0,2.0,3.0,2.0,njvag.vcbwjjo@gmail.com,,,,2.4000000000000004,-0.6028282147945317,0,0
+,Xvhvxtr Ufuttdq,,,"c++, deep learning, javascript, kubernetes, react, tensorflow",0.09,M.Tech,2.0,2.0,5.0,5.0,5.0,xvhvxtr.ufuttdq@gmail.com,,,,2.35,-1.4895024577242124,0,0
+,Ayvxh Gvhua,,,"html, react",3.72,M.Sc,2.0,5.0,2.0,1.0,5.0,ayvxh.gvhua@gmail.com,,,,1.85,0.7302406469894018,0,0
+,Cvqtwlxk Coyhqzab,,,"javascript, python, tensorflow",0.79,B.Tech,4.0,5.0,2.0,4.0,5.0,cvqtwlxk.coyhqzab@gmail.com,,,,2.95,-1.0614528232064355,1,1
+,Qgvcp Ldxxtph,,,"deep learning, java, machine learning, python, react",0.61,B.Sc,2.0,3.0,3.0,1.0,1.0,qgvcp.ldxxtph@gmail.com,,,,2.0500000000000003,-1.1715227292252923,1,1
+,Lpwxctkg Gejjp,,,"aws, kubernetes, machine learning, node.js, sql, tensorflow",0.76,Diploma,5.0,3.0,4.0,4.0,2.0,lpwxctkg.gejjp@gmail.com,,,,3.45,-1.0797978075429115,1,1
+,Kggebs Dhzhgljd,,,"aws, pytorch, python, react",1.74,BCA,2.0,2.0,1.0,2.0,4.0,kggebs.dhzhgljd@gmail.com,,,,1.1,-0.4805283192180241,0,0
+,Srrqhkd Zvnzteo,,,"docker, html",2.27,B.Tech,4.0,3.0,5.0,5.0,3.0,srrqhkd.zvnzteo@gmail.com,,,,3.45,-0.15643359594027878,1,1
+,Yuqvb Lqoziupb,,,"docker, javascript",0.49,B.Tech,5.0,2.0,4.0,5.0,5.0,yuqvb.lqoziupb@gmail.com,,,,2.9000000000000004,-1.2449026665711969,0,0
+,Dfdzfll Gltemt,,,"css, docker, python, sql",0.66,B.Sc,4.0,5.0,5.0,2.0,2.0,dfdzfll.gltemt@gmail.com,,,,3.6,-1.1409477553311653,1,1
+,Vtrmvuh Edsgnx,,,"data analysis, java, python",1.42,M.Sc,1.0,5.0,2.0,5.0,5.0,vtrmvuh.edsgnx@gmail.com,,,,2.4,-0.6762081521404364,0,0
+,Xeqscfek Uaqfmkj,,,"deep learning, docker, javascript, react, sql",1.69,B.Tech,2.0,5.0,3.0,3.0,3.0,xeqscfek.uaqfmkj@gmail.com,,,,2.75,-0.5111032931121511,0,0
+,Ttptvmma Oilinh,,,"javascript, machine learning",0.47,Diploma,5.0,2.0,3.0,5.0,5.0,ttptvmma.oilinh@gmail.com,,,,2.7,-1.2571326561288478,1,1
+,Nmkyw Rwuklu,,,"deep learning, docker, java, pytorch, python, sql",4.84,M.Tech,2.0,2.0,2.0,4.0,1.0,nmkyw.rwuklu@gmail.com,,,,2.15,1.4151200622178446,1,1
+,Urzlcx Pxlwe,,,"aws, c++, deep learning, docker, python",0.6,Diploma,5.0,1.0,4.0,5.0,4.0,urzlcx.pxlwe@gmail.com,,,,2.75,-1.1776377240041176,1,1
+,Uqrngyfv Idrolsf,,,"css, docker, kubernetes, machine learning, node.js, python",0.8,M.Tech,1.0,3.0,1.0,4.0,4.0,uqrngyfv.idrolsf@gmail.com,,,,1.5499999999999998,-1.05533782842761,1,1
+,Easeq Mvcbb,,,"deep learning, kubernetes, python",3.13,B.Tech,1.0,1.0,2.0,3.0,5.0,easeq.mvcbb@gmail.com,,,,0.8000000000000003,0.3694559550387041,1,1
+,Jzqzh Wvpaag,,,"deep learning, machine learning, node.js, pytorch, python, sql",4.37,Diploma,2.0,2.0,3.0,5.0,5.0,jzqzh.wvpaag@gmail.com,,,,1.9500000000000002,1.1277153076130517,1,1
+,Xmbeb Jfghx,,,"javascript, node.js, pytorch, tensorflow",7.39,B.Tech,1.0,1.0,3.0,3.0,3.0,xmbeb.jfghx@gmail.com,,,,1.3000000000000003,2.974443730818317,0,0
+,Muufhle Zifhosrt,,,"aws, data analysis, docker, machine learning, pytorch",3.92,BCA,5.0,1.0,1.0,5.0,2.0,muufhle.zifhosrt@gmail.com,,,,2.45,0.8525405425659094,1,1
+,Cifpnlv Nygfj,,,"javascript, python",2.69,MCA,2.0,2.0,3.0,4.0,2.0,cifpnlv.nygfj@gmail.com,,,,2.2,0.10039618477038725,1,1
+,Rdhugge Yudprvy,,,"aws, docker, machine learning",0.32,B.Sc,1.0,1.0,3.0,2.0,2.0,rdhugge.yudprvy@gmail.com,,,,1.2500000000000002,-1.3488575778112286,0,0
+,Folphikr Ruyebmdi,,,"docker, html, kubernetes, node.js, python, react, tensorflow",0.25,Diploma,1.0,5.0,4.0,4.0,3.0,folphikr.ruyebmdi@gmail.com,,,,2.8999999999999995,-1.3916625412630061,1,1
+,Sjypgjze Dzbsugcx,,,"aws, c++, machine learning, pytorch",0.3,B.Sc,2.0,2.0,5.0,2.0,3.0,sjypgjze.dzbsugcx@gmail.com,,,,2.05,-1.3610875673688794,0,0
+,Rqurusl Eeoabtb,,,"css, docker, java, node.js, python, react",0.74,MCA,2.0,3.0,1.0,1.0,2.0,rqurusl.eeoabtb@gmail.com,,,,1.4999999999999998,-1.0920277971005623,0,0
+,Hayeu Ryafs,,,"node.js, sql",2.3,B.E,3.0,3.0,1.0,2.0,4.0,hayeu.ryafs@gmail.com,,,,1.65,-0.13808861160380276,0,0
+,Woscdidi Afghv,,,"c++, html, machine learning",0.17,B.E,2.0,1.0,2.0,2.0,3.0,woscdidi.afghv@gmail.com,,,,1.1500000000000001,-1.4405824994936092,0,0
+,Equlsk Cpuur,,,"data analysis, java, machine learning, python, react",0.45,B.Tech,5.0,2.0,5.0,3.0,2.0,equlsk.cpuur@gmail.com,,,,3.1500000000000004,-1.2693626456864984,1,1
+,Uwyetago Brlrqiwd,,,"docker, machine learning, python, sql",2.66,Diploma,1.0,3.0,5.0,5.0,1.0,uwyetago.brlrqiwd@gmail.com,,,,3.0,0.08205120043391123,1,1
+,Wokfmods Pvfjzz,,,"c++, css, html, kubernetes, machine learning, react",3.14,Diploma,5.0,1.0,3.0,4.0,5.0,wokfmods.pvfjzz@gmail.com,,,,2.2,0.3755709498175296,1,1
+,Nxpwb Dauvkv,,,"deep learning, html, machine learning, pytorch, python",2.1,M.Sc,1.0,2.0,2.0,3.0,1.0,nxpwb.dauvkv@gmail.com,,,,1.7000000000000002,-0.26038850718031026,1,1
+,Sowkltg Btsxd,,,"html, javascript, node.js, pytorch, python",1.05,BCA,4.0,3.0,3.0,4.0,3.0,sowkltg.btsxd@gmail.com,,,,2.8499999999999996,-0.9024629589569755,1,1
+,Cuusw Iosrvkal,,,"pytorch, python, react, tensorflow",5.23,BCA,1.0,1.0,1.0,5.0,1.0,cuusw.iosrvkal@gmail.com,,,,1.6,1.6536048585920349,1,1

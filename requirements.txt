@@ -1,0 +1,20 @@
+flask==3.0.3
+pdfplumber==0.10.3
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+joblib==1.4.2
+
+# For email sending
+smtplib    # part of Python standard library → does NOT go in requirements
+
+# Templates and form handling (Flask built-in)
+jinja2==3.1.4
+itsdangerous==2.2.0
+werkzeug==3.0.3
+
+# For your code using MIMEText
+email-validator==2.2.0
+
+# OPTIONAL: if you want PDF text extraction stability
+PyMuPDF==1.24.9
