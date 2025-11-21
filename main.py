@@ -4,6 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report
 import smtplib
 from email.mime.text import MIMEText
 
@@ -13,7 +14,7 @@ from email.mime.text import MIMEText
 df = pd.read_csv("candidate.csv")
 
 # ----------------------------
-# FIX SKILLS PROCESSING
+# SKILLS PROCESSING
 # ----------------------------
 df["Skills"] = df["Skills"].fillna("").astype(str).str.lower()
 
@@ -21,7 +22,7 @@ vectorizer = TfidfVectorizer(max_features=200)
 X_skills = vectorizer.fit_transform(df["Skills"])
 
 # ----------------------------
-# PERSONALITY SCORE (BETTER)
+# PERSONALITY SCORE
 # ----------------------------
 df['Personality_Score'] = (
     df["Openness"] * 0.25 +
@@ -41,7 +42,6 @@ df["Experience_Norm"] = scaler.fit_transform(df[["Experience"]])
 
 # ----------------------------
 # CREATE AUTOMATIC HIRED LABEL
-# (Makes sure the model learns properly)
 # ----------------------------
 df["Auto_Hired_Label"] = (
     (df["Experience"] > 2).astype(int) +
@@ -72,9 +72,28 @@ model = RandomForestClassifier(n_estimators=150)
 model.fit(X_train, y_train)
 
 # ----------------------------
+# MODEL EVALUATION
+# ----------------------------
+y_pred = model.predict(X_test)
+
+accuracy = accuracy_score(y_test, y_pred)
+precision = precision_score(y_test, y_pred, zero_division=0)
+recall = recall_score(y_test, y_pred, zero_division=0)
+f1 = f1_score(y_test, y_pred, zero_division=0)
+
+print("\n📊 MODEL PERFORMANCE METRICS")
+print("Accuracy:", round(accuracy, 4))
+print("Precision:", round(precision, 4))
+print("Recall:", round(recall, 4))
+print("F1-Score:", round(f1, 4))
+print("\nDetailed Classification Report:\n")
+print(classification_report(y_test, y_pred))
+
+# ----------------------------
 # PREDICT HIRING
 # ----------------------------
 df["Hired_Predicted"] = model.predict(X)
+
 
 # GUARANTEED SOMEONE IS HIRED
 selected = df[df["Hired_Predicted"] == 1]
@@ -125,3 +144,4 @@ DSK Company
 
     server.quit()
     print("📩 Emails sent successfully!")
+
